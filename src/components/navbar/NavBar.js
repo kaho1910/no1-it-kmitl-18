@@ -7,7 +7,7 @@ import { NavLink } from "./NavLink";
 function NavBar() {
     return (
         <div
-            className="flex justify-between items-center"
+            className="flex justify-between items-center sticky top-0 bg-white"
             style={{ height: "64px" }}>
             <div className="items-center p-5">
                 <img src={ps5Logo} alt="logo" width="180px" />
@@ -31,7 +31,7 @@ function NavBar() {
                 </NavLink>
             </div>
 
-            <div className="p-32">{/* <NavLink to="/">check</NavLink> */}</div>
+            <div className="p-28">{/* <NavLink to="/">check</NavLink> */}</div>
         </div>
     );
 }
