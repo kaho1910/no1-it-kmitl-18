@@ -13,10 +13,11 @@
 ### Need to do
 - [ ] NavBar
     - [x] functional
-    - [ ] router - title name
-    - [ ] title icon
+    - [ ] router - title
+        - [ ] name
+        - [ ] icon
     - [ ] Footer
-    - [ ] choose Fonts
+    - [ ] choose fonts
 - [ ] PlayStation 5
 - [ ] Game
 - [ ] Accessories
