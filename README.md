@@ -13,6 +13,8 @@
 ### Need to do
 - [ ] NavBar
     - [x] functional
+    - [ ] router - title name
+    - [ ] title icon
     - [ ] Footer
     - [ ] choose Fonts
 - [ ] PlayStation 5
