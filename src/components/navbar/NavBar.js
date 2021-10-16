@@ -14,21 +14,13 @@ function NavBar() {
             </div>
 
             <div className="flex items-stretch  items-center">
-                <NavLink to="/" activeStyle exact>
+                <NavLink to="/" exact>
                     PlayStation 5
                 </NavLink>
-                <NavLink to="/games" activeStyle>
-                    เกม
-                </NavLink>
-                <NavLink to="/accessories" activeStyle>
-                    อุปกรณ์เสริม
-                </NavLink>
-                <NavLink to="/ps5-features" activeStyle>
-                    ฟีเจอร์เพิ่มเติม
-                </NavLink>
-                <NavLink to="/ps5-entertainment" activeStyle>
-                    ความบันเทิง
-                </NavLink>
+                <NavLink to="/games">เกม</NavLink>
+                <NavLink to="/accessories">อุปกรณ์เสริม</NavLink>
+                <NavLink to="/ps5-features">ฟีเจอร์เพิ่มเติม</NavLink>
+                <NavLink to="/ps5-entertainment">ความบันเทิง</NavLink>
             </div>
 
             <div className="p-28">{/* <NavLink to="/">check</NavLink> */}</div>

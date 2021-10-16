@@ -6,6 +6,7 @@ import Games from "./pages/Games";
 import Accessories from "./pages/Accessories";
 import Features from "./pages/Features";
 import Entertainment from "./pages/Entertainment";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     />
                 </Switch>
             </Router>
+            <Footer />
         </div>
     );
 }

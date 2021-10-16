@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.footer,
+.foot-link {
+    /* font-family: ; */
+    background-color: #00439c;
+    color: #fff;
+    height: 554px;
+}
