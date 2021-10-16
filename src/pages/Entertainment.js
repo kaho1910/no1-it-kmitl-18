@@ -1,5 +1,6 @@
 import React from "react";
 import DocTitle from "../components/etc/DocTitle";
+import f_etm from "../img/img_etm/f_etm.png";
 
 function Entertainment() {
     DocTitle(
@@ -7,16 +8,29 @@ function Entertainment() {
     );
     return (
         <div>
-        <figure className="position-relative">
-        <img className="img-fluid" src={f_etm} alt="Ps5etm" width="100%"/>
-        <figcaption className="text-left caption">
-            <h1>ความบันเทิงบน PS5</h1>
-            <p>สตรีมรายการทีวี ภาพยนตร์ และดนตรีที่ยอดเยี่ยมจากบริการด้านความบันเทิงที่คุณโปรดปราน</p>
-            <br></br>
-            <p>บริการสตรีมมิ่งอาจต้องมีการสมัครสมาชิกแบบมีค่าใช้จ่าย เนื้อหาที่แสดงในหน้านี้อาจไม่พร้อมใช้งานในทุกประเทศ ต้องมีอินเทอร์เน็ตและบัญชีสำหรับ PlayStation™Network ด้วย</p>
-        </figcaption>
-        </figure>
-    </div>
+            <figure className="position-relative">
+                <img
+                    className="img-fluid"
+                    src={f_etm}
+                    alt="Ps5etm"
+                    width="100%"
+                />
+                <figcaption className="text-left caption">
+                    <h1>ความบันเทิงบน PS5</h1>
+                    <p>
+                        สตรีมรายการทีวี ภาพยนตร์
+                        และดนตรีที่ยอดเยี่ยมจากบริการด้านความบันเทิงที่คุณโปรดปราน
+                    </p>
+                    <br></br>
+                    <p>
+                        บริการสตรีมมิ่งอาจต้องมีการสมัครสมาชิกแบบมีค่าใช้จ่าย
+                        เนื้อหาที่แสดงในหน้านี้อาจไม่พร้อมใช้งานในทุกประเทศ
+                        ต้องมีอินเทอร์เน็ตและบัญชีสำหรับ PlayStation™Network
+                        ด้วย
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
     );
 }
 
