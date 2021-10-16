@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.arrow-black {
+    transform: scale(1.6);
+}
+
+.vid-btn-black:hover {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.arrow-blue {
+    transform: scale(1.6);
+}
+
+.vid-btn-blue:hover {
+    outline: none;
+    box-shadow: 0 0 0 2px #2d64e6;
+}
