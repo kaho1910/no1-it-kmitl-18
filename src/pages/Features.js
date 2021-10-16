@@ -1,7 +1,7 @@
 import React from "react";
 import DocTitle from "../components/etc/DocTitle";
 import VidPlayer from "../components/etc/VidPlayer";
-import VidBtnBlack from "../components/etc/VidBtnBlack";
+import VidBtnWhite from "../components/etc/VidBtnWhite";
 import VidBtnBlue from "../components/etc/VidBtnBlue";
 import "./Features.css";
 import pic1 from "../img/Features/01.png";
@@ -198,7 +198,7 @@ function Features() {
                                 และผู้เล่น PS5 ก็สามารถรับคำเชิญจากผู้เล่น PS4
                                 ได้เช่นกัน
                             </p>
-                            <VidBtnBlack />
+                            <VidBtnWhite />
                         </div>
                     </div>
                     <div></div>

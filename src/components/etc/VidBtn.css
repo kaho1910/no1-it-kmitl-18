@@ -1,13 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.arrow-black {
+.arrow-white {
     transform: scale(1.6);
 }
 
-.vid-btn-black:hover {
+.vid-btn-white:hover {
     outline: none;
     box-shadow: 0 0 0 2px #fff;
+}
+
+.vid-btn-white:active {
+    background: #ccc;
+    box-shadow: 0 0 0 2px #ccc;
 }
 
 .arrow-blue {
@@ -17,4 +22,9 @@
 .vid-btn-blue:hover {
     outline: none;
     box-shadow: 0 0 0 2px #2d64e6;
+}
+
+.vid-btn-blue:active {
+    background: #123b9b;
+    box-shadow: 0 0 0 2px #123b9b;
 }
