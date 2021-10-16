@@ -6,9 +6,7 @@ import { NavLink } from "./NavLink";
 
 function NavBar() {
     return (
-        <div
-            className="flex justify-between items-center sticky top-0 bg-white"
-            style={{ height: "64px" }}>
+        <div className="nav-bar flex justify-between items-center sticky top-0 bg-white z-50">
             <div className="items-center p-5">
                 <img src={ps5Logo} alt="logo" width="180px" />
             </div>
