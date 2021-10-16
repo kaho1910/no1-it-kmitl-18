@@ -22,5 +22,6 @@
 - [ ] Game
 - [ ] Accessories
 - [ ] Features
-    - [ ] video player
+    - [x] most of content
+    - [ ] VidPlayer
 - [ ] Entertainment
