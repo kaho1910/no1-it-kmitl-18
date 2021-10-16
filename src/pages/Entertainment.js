@@ -12,7 +12,7 @@ function Entertainment() {
     );
     return (
         <div>
-        <div className="layer banner position-relative">
+        <div className="banner position-relative">
         <img className="img-fluid fetm" src={f_etm} alt="Ps5etm" width="100%"/>
         <div className="banner-content">
         <div className="caption">
@@ -24,11 +24,15 @@ function Entertainment() {
         </div>
         </div>
         <br></br>
-        <div className="layer seclayer">
+        <div className="seclayer">
             <h2>ทีวีและภาพยนตร์บน PlayStation®5</h2>
             <p style={{opacity:0.7}}>พบกับรายการทีวีโปรดรายการถัดไปของคุณ สตรีมเนื้อหาวิดีโอล่าสุด หรือเตรียมตัวรับชมภาพยนตร์</p>
-            <div className="ui_layout">
-                <img src={ui_etm} alt="Ps5ui" width="56%" />
+            <div className="ui_layout" style={{width:"57.23%"}}>
+                <img src={ui_etm} alt="Ps5ui" width="100%" />
+                <div>
+                <h3>เข้าถึงความบันเทิงที่ยอดเยี่ยม</h3>
+                <p>ส่วนมีเดียของอินเตอร์เฟซผู้ใช้คอนโซล PS5 รวมบริการสตรีมมิ่งฟรีและแบบมีค่าใช้จ่ายที่ได้รับการคัดสรรไว้ด้วยกันในทีเดียว คุณจึงพบและเปิดซีรีส์ตอนล่าสุด ภาพยนตร์ และรายการทีวีที่แนะนำเพียงกดปุ่ม</p>
+                </div>
             </div>
         </div>
     </div>

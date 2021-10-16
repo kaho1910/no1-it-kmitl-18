@@ -7,9 +7,7 @@
     top:35%;
     justify-content: center;
 }
-.layer{
-    margin:1.5%;
-}
+
 .caption{
     position:relative;
     color:white;
@@ -29,29 +27,33 @@
     padding:0;
 }
 .seclayer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 2rem;
 }
+p{
+    font-size: 1rem;
+}
 .fetm{
-    -webkit-animation: fadein 2s;
-       -moz-animation: fadein 2s;
-        -ms-animation: fadein 2s;
-         -o-animation: fadein 2s;
-            animation: fadein 2s;
+    height: 100%;
+    -webkit-animation: fadein 1.5s;
+       -moz-animation: fadein 1.5s;
+        -ms-animation: fadein 1.5s;
+         -o-animation: fadein 1.5s;
+            animation: fadein 1.5s;
 }
 .ui_layout{
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-h2{
-    padding:1%;
-}
-p{
-    padding:0.5%;
-}
+
 @keyframes fadein {
-    from { opacity: 0.93; 
-            width:150;}
+    from { opacity: 0.83; 
+            width:150%;}
     to   { opacity: 1; 
-        width:100;}
+        width:100%;}
 }
