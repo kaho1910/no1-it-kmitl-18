@@ -1,3 +1,69 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.banner-content{
+    position: absolute;
+    width:100%;
+    top:35%;
+    justify-content: center;
+}
+
+.caption{
+    position:relative;
+    color:white;
+    max-width:45%;
+    text-align: left;
+    padding-left: 8%;
+    font-size: 2rem;
+    -webkit-animation: tabout 1.7s;
+       -moz-animation: tabout 1.7s;
+        -ms-animation: tabout 1.7s;
+         -o-animation: tabout 1.7s;
+            animation: tabout 1.7s;
+}
+.llt{
+    font-size: 0.75rem;
+    max-width: 95%;
+}
+.banner{
+    display:flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+.seclayer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+.fetm{
+    transform: scale(1);
+    animation-fill-mode:forwards;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
+}
+.ui_layout{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes fadein {
+    from { opacity: 0.83; 
+            transform: scale(1.0);}
+    to   { opacity: 1; 
+        transform: scale(1.0);}
+}
+@keyframes tabout {
+    from { transform: translate(0%, 18%);}
+    to   { transform: translate(0%, 0%);}
+}
