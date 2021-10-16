@@ -15,6 +15,11 @@
     text-align: left;
     padding-left: 8%;
     font-size: 2rem;
+    -webkit-animation: tabout 1.7s;
+       -moz-animation: tabout 1.7s;
+        -ms-animation: tabout 1.7s;
+         -o-animation: tabout 1.7s;
+            animation: tabout 1.7s;
 }
 .llt{
     font-size: 0.75rem;
@@ -37,12 +42,13 @@ p{
     font-size: 1rem;
 }
 .fetm{
-    height: 100%;
-    -webkit-animation: fadein 1.5s;
-       -moz-animation: fadein 1.5s;
-        -ms-animation: fadein 1.5s;
-         -o-animation: fadein 1.5s;
-            animation: fadein 1.5s;
+    transform: scale(1);
+    animation-fill-mode:forwards;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
 }
 .ui_layout{
     display:flex;
@@ -53,7 +59,11 @@ p{
 
 @keyframes fadein {
     from { opacity: 0.83; 
-            width:150%;}
+            transform: scale(1.0);}
     to   { opacity: 1; 
-        width:100%;}
+        transform: scale(1.0);}
+}
+@keyframes tabout {
+    from { transform: translate(0%, 18%);}
+    to   { transform: translate(0%, 0%);}
 }
