@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
+.nav-bar {
     font-family: Arial, sans-serif;
     font-size: 17px;
+    height: 64px;
 }
