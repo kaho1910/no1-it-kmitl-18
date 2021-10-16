@@ -22,4 +22,5 @@
 - [ ] Game
 - [ ] Accessories
 - [ ] Features
+    - [ ] video player
 - [ ] Entertainment
