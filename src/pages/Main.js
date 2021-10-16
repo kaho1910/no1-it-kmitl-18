@@ -1,6 +1,8 @@
 import React from "react";
+import DocTitle from "../components/etc/DocTitle";
 
 function main() {
+    DocTitle("PlayStation 5 | Play Has No Limits | PlayStation");
     return (
         <div>
             <h1>

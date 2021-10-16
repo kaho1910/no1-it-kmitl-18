@@ -1,6 +1,8 @@
 import React from "react";
+import DocTitle from "../components/etc/DocTitle";
 
 function Accessories() {
+    DocTitle("อุปกรณ์เสริม PS5 | อุปกรณ์เสริม PlayStation รุ่นใหม่ ประเทศไทย");
     return (
         <div>
             <h1>
