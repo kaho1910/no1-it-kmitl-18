@@ -451,7 +451,7 @@ function Games() {
                     </CardGame>
                     <CardGame
                         title="Scarlet Nexus"
-                        pic={pic52}
+                        pic={pic53}
                         alt="scarlet nexus"
                         open="วางจำหน่ายแล้ว"
                         btn="เรียนรู้เพิ่มเติม">
@@ -461,7 +461,7 @@ function Games() {
                     </CardGame>
                     <CardGame
                         title="Balan Wonderworld"
-                        pic={pic53}
+                        pic={pic54}
                         alt="balan"
                         open="วางจำหน่ายแล้ว"
                         btn="เรียนรู้เพิ่มเติม">
@@ -471,7 +471,7 @@ function Games() {
                     </CardGame>
                     <CardGame
                         title="Immortals Fenyx Rising"
-                        pic={pic54}
+                        pic={pic55}
                         alt="fenyx rising"
                         open="วางจำหน่ายแล้ว"
                         btn="เรียนรู้เพิ่มเติม">
@@ -482,7 +482,7 @@ function Games() {
                     </CardGame>
                     <CardGame
                         title="Tom Clancy's Rainbow Six Siege"
-                        pic={pic55}
+                        pic={pic56}
                         alt="rs6"
                         open="วางจำหน่ายแล้ว"
                         btn="เรียนรู้เพิ่มเติม">
@@ -492,7 +492,7 @@ function Games() {
                     </CardGame>
                     <CardGame
                         title="Devil May Cry 5: Special Edition"
-                        pic={pic56}
+                        pic={pic57}
                         alt="dmc5"
                         open="วางจำหน่ายแล้ว"
                         btn="เรียนรู้เพิ่มเติม">
