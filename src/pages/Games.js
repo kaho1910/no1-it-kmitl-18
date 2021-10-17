@@ -1,9 +1,11 @@
 import React from "react";
+import "./Games.css";
 import DocTitle from "../components/etc/DocTitle";
 import VidPlayer from "../components/etc/VidPlayer";
 import BtnBlue from "../components/etc/BtnBlue";
 import BtnWhite from "../components/etc/BtnWhite";
 import CardGame from "../components/Games/CardGame";
+import CardGameV2 from "../components/Games/CardGameV2";
 import pic1 from "../img/Games/01.jpg";
 import pic2 from "../img/Games/02.png";
 import pic3 from "../img/Games/03.jpg";
@@ -27,6 +29,26 @@ import pic20 from "../img/Games/20.jpg";
 import pic21 from "../img/Games/21.jpg";
 import pic22 from "../img/Games/22.png";
 import pic23 from "../img/Games/23.jpg";
+import pic24 from "../img/Games/24.png";
+import pic25 from "../img/Games/25.jpg";
+import pic26 from "../img/Games/26.jpg";
+import pic27 from "../img/Games/27.jpg";
+import pic28 from "../img/Games/28.png";
+import pic29 from "../img/Games/29.jpg";
+import pic30 from "../img/Games/30.jpg";
+import pic31 from "../img/Games/31.png";
+import pic32 from "../img/Games/32.jpg";
+import pic33 from "../img/Games/33.png";
+import pic34 from "../img/Games/34.jpg";
+import pic35 from "../img/Games/35.png";
+import pic36 from "../img/Games/36.png";
+import pic37 from "../img/Games/37.jpg";
+import pic38 from "../img/Games/38.png";
+import pic39 from "../img/Games/39.jpg";
+import pic40 from "../img/Games/40.jpg";
+import pic41 from "../img/Games/41.jpg";
+import pic42 from "../img/Games/42.jpg";
+import pic43 from "../img/Games/43.jpg";
 import pic44 from "../img/Games/44.jpg";
 import pic45 from "../img/Games/45.jpg";
 import pic46 from "../img/Games/46.jpg";
@@ -45,6 +67,29 @@ import pic58 from "../img/Games/58.jpg";
 import pic59 from "../img/Games/59.png";
 import pic60 from "../img/Games/60.png";
 import t1 from "../img/Games/t01.jpg";
+
+let tab = 1;
+function switchTab(num) {
+    if (num !== tab) {
+        if (tab === 1) {
+            tab = 2;
+            document.getElementById("head1").className =
+                "text-xl cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out duration-400";
+            document.getElementById("head2").className =
+                "text-xl cursor-pointer p-2 inline";
+            document.getElementById("tab1").className = "hidden";
+            document.getElementById("tab2").className = "";
+        } else {
+            tab = 1;
+            document.getElementById("head1").className =
+                "text-xl cursor-pointer p-2 inline";
+            document.getElementById("head2").className =
+                "text-xl cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out duration-400";
+            document.getElementById("tab1").className = "";
+            document.getElementById("tab2").className = "hidden";
+        }
+    }
+}
 
 function Games() {
     DocTitle("เกม PS5 | เกมสุดพิเศษใน PlayStation 5 | PlayStation");
@@ -388,10 +433,265 @@ function Games() {
             </div>
 
             <div
-                className="bg-green-500 h-96"
-                // style={{ backgroundColor: "#eeeeee" }}
-            >
-                เกมสุดพิเศษของคอนโซล PlayStation
+                className="py-16 px-24 overflow-x-hidden"
+                style={{ backgroundColor: "#eeeeee" }}>
+                <h2 className="text-5xl" style={{ color: "rgb(0,114,206)" }}>
+                    เกมสุดพิเศษของคอนโซล PlayStation จากพันธมิตรของเรา *
+                </h2>
+                <p className="text-2xl text-gray-500 mt-8">
+                    ใช้แท็บในการสำรวจเกมสุดพิเศษมากมายของคอนโซล PlayStation 5
+                    และคอนโซล PlayStation
+                </p>
+                <p className="text-xs text-right text-gray-500 mt-4">
+                    *ไม่รองรับคอนโซลอื่นๆ ในช่วงเวลานี้ รองรับการเล่นบน PC
+                    อีกด้วย
+                </p>
+                <div id="tab-head" className="mt-28">
+                    <li
+                        id="head1"
+                        onClick={() => {
+                            switchTab(1);
+                        }}
+                        className="text-xl cursor-pointer p-2 inline">
+                        เกมพิเศษสำหรับคอนโซล PS5
+                    </li>
+                    <li
+                        id="head2"
+                        onClick={() => {
+                            switchTab(2);
+                        }}
+                        className="text-xl cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out duration-400">
+                        เกมพิเศษสำหรับคอนโซล PlayStation
+                    </li>
+                </div>
+                <div id="tab-indi" className="mb-10"></div>
+                <div id="tba-body" className="px-44">
+                    <div id="tab1" className="">
+                        <div className="grid grid-cols-2">
+                            <CardGameV2
+                                title="Godfall"
+                                pic={pic24}
+                                alt="godfall"
+                                open="วางจำหน่ายแล้ว"
+                                btn="เรียนรู้เพิ่มเติม"
+                                color="gray-500">
+                                ช่วยเหลือ Aperion คุณคืออัศวิน Valorian
+                                คนสุดท้ายและเป็นนักรบผู้เก่งกาจที่มีเกราะในตำนานที่เรียกกันว่า
+                                Valorplates ครองอำนาจใน Godfall
+                                เกมต่อสู้ฟาดฟันระยะประชิดแนวแอคชั่น RPG เกมแรก
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Deathloop"
+                                pic={pic25}
+                                alt="deathloop"
+                                open="14 กันยายน 2021"
+                                btn="เรียนรู้เพิ่มเติม"
+                                color="gray-500">
+                                Deathloop
+                                คือเกมยิงปืนมุมมองบุคคลที่หนึ่งที่จะมาสร้างมาตรฐานใหม่
+                                ซึ่ง Arkane Lyon พัฒนามาสำหรับ PlayStation 5
+                                โดยเฉพาะ
+                            </CardGameV2>
+                        </div>
+                        <div className="grid grid-cols-3">
+                            <CardGameV2
+                                title="Ghostwire: Tokyo"
+                                pic={pic26}
+                                alt="ghostwire"
+                                open="2021"
+                                btn="เรียนรู้เพิ่มเติม"
+                                color="gray-500">
+                                Ghostwire: Tokyo
+                                เป็นเกมผจญภัยแนวแอคชั่นอันน่าทึ่งจาก Shinji
+                                Mikami และ Tango Gameworks ที่ออกแบบมาสำหรับระบบ
+                                PlayStation 5 (PS5) โดยเฉพาะ{" "}
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Project Athia"
+                                pic={pic27}
+                                alt="atia"
+                                open="TBC"
+                                color="gray-500">
+                                Project Athia (ชื่อชั่วคราว) คือสุดยอดผลงานของ
+                                Luminous Productions
+                                ในการสร้างประสบการณ์เกมที่ใหม่หมดจดโดยหลอมรวมเทคโนโลยีล่าสุดและศิลปะเข้าด้วยกัน
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Final Fantasy XVI"
+                                pic={pic28}
+                                alt="ff16"
+                                open="TBC"
+                                color="gray-500">
+                                <p className="text-lg">
+                                    ชื่อเนื้อเรื่องใหม่ทั้งหมดในซีรีส์ FINAL
+                                    FANTASY ในตำนาน FINAL FANTASY XVI
+                                    กำลังมาในรูปแบบแอคชั่น RPG
+                                    สำหรับผู้เล่นคนเดียว
+                                </p>
+                                <p className="text-lg mt-4">
+                                    “มรดกแห่งคริสตัลได้หล่อหลอมประวัติศาสตร์ของเรามานานพอแล้ว”
+                                </p>
+                            </CardGameV2>
+                        </div>
+                    </div>
+                    <div id="tab2" className="hidden">
+                        <div className="grid grid-cols-4">
+                            <CardGameV2
+                                title="The Pathless"
+                                pic={pic29}
+                                alt="pathless"
+                                open="วางจำหน่ายแล้ว"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                จากผู้สร้าง ABZÛ เกม The Pathless
+                                คือเรื่องราวการผจญภัยของนักธนูและนกอินทรีในป่าที่กว้างใหญ่
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Heavenly Bodies"
+                                pic={pic30}
+                                alt="heavenly bodies"
+                                open="TBC"
+                                mb="0">
+                                สวมบทบาทมนุษย์อวกาศผู้กล้าหาญและเป็นหน้าที่ของคุณเพียงผู้เดียวที่จะรักษาความเป็นเจ้าแห่งวิศวกรรมอวกาศล่าสุดและน่าภาคภูมิใจที่สุดของโลก
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Nour: Play With Your Food"
+                                pic={pic31}
+                                alt="nour"
+                                open="TBC"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                Nour: Play With Your Food
+                                เป็นเกมแบบอินเทอร์แอคทีฟที่จะพาไปสำรวจความงดงามของอาหารและเครื่องดื่ม
+                                คุณจะเล่นกับอาหารอย่างไรก็ได้ตามใจ
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Temtem"
+                                pic={pic32}
+                                alt="temtem"
+                                open="วางจำหน่ายแล้ว"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                ดื่มด่ำไปกับเกมออนไลน์แบบหลายผู้เล่นที่ให้คุณสวมบทบาทและสะสมสัตว์ประหลาด
+                                สำรวจเกาะทั้งหกของหมู่เกาะ Airborne Archipelago
+                                เสาะหาและสะสม Temtem สายพันธุ์ใหม่
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Five Nights at Freddy's: Security Breach"
+                                pic={pic33}
+                                alt="fnf:sb"
+                                open="TBC"
+                                mb="0">
+                                Five Nights at Freddy’s: Security Breach
+                                นำจิตวิญญาณของความอินดี้และผสมผสานกับเทคโนโลยีเกมมิ่งล้ำสมัย
+                                นำแฟรนไชส์นี้ไปสู่อีกระดับหนึ่งด้วย PlayStation
+                                5.
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Guilty Gear -Strive-"
+                                pic={pic34}
+                                alt="gg: strive"
+                                open="วางจำหน่ายแล้ว"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                ภาคล่าสุดของซีรีส์ Guilty Gear สุดตระการตา
+                                Guilty Gear -Strive-!
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Oddworld Soulstorm"
+                                pic={pic35}
+                                alt="oddworld"
+                                open="วางจำหน่ายแล้ว"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                จากทาสผู้ไม่รู้เรื่องราวที่กำลังจะถูกเครื่องจักรขนาดใหญ่ขบเคี้ยว
+                                Abe
+                                ได้กลายเป็นฮีโร่ผู้ลุกขึ้นมาเป็นสัญญาณแห่งความหวังอย่างไม่น่าเชื่อ
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Jett: The Far Shore"
+                                pic={pic36}
+                                alt="jett"
+                                open="TBC"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                Jett: The Far Shore
+                                เชื้อเชิญคุณมาร่วมออกเดินทางระหว่างดวงดาวเพื่อสร้างอนาคตให้กับผู้คนที่หลอนจากการถูกหลงลืมในเกมผจญภัยแนวแอคชั่นคุณภาพระดับภาพยนตร์นี้
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Bugsnax"
+                                pic={pic37}
+                                alt="bugsnax"
+                                open="วางจำหน่ายแล้ว"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                Bugsnax ขอพาคุณไปผจญภัยสุดแปลกตาสู่เกาะ
+                                Snaktooth ซึ่งเป็นที่อยู่ของเหล่า Bugsnax
+                                สิ่งมีชีวิตครึ่งแมลงครึ่งอาหารว่างในตำนาน
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Stray"
+                                pic={pic38}
+                                alt="stray"
+                                open="TBC"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                หลงทาง โดดเดี่ยว และพลัดพรากจากครอบครัว
+                                เจ้าแมวต้องคลายปมปริศนาโบราณเพื่อหลบหนีจากเมืองที่ถูกหลงลืมไปนาน
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Kena: Bridge of Spirits"
+                                pic={pic39}
+                                alt="kena"
+                                open="21 กันยายน 2021"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                เกมผจญภัยแนวแอคชั่นพร้อมระบบเหล่าผองเพื่อนที่ไม่เหมือนใคร
+                                ค้นหาและเก็บ Rot มาเป็นพวกเพื่อรับพลังพิเศษ
+                                ค้นพบสิ่งใหม่ๆ และดัดแปลงสภาพแวดล้อม
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Goodbye Volcano High"
+                                pic={pic40}
+                                alt="volcanp high"
+                                open="TBC"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                <i>Goodbye Volcano High</i>{" "}
+                                เป็นเรื่องราวการผจญภัยเกี่ยวกับการสิ้นสุดของยุคสมัย...
+                                และจุดเริ่มต้นของเรื่องราวความรัก
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Tribes of Midgard"
+                                pic={pic41}
+                                alt="midgard"
+                                open="27 กรกฎาคม 2021"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0">
+                                สำรวจ ต่อสู้ สร้างเครื่องมืออุปกรณ์
+                                และขึ้นเป็นเจ้าแห่ง Viking
+                                พร้อมต้านทานการบุกรุกของเหล่า Giant ใน Ragnarök
+                                ที่กำลังจะมาถึง
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Little Devil Inside"
+                                pic={pic42}
+                                alt="ldi"
+                                open="2021"
+                                mb="0">
+                                Little Devil Inside คือเกม RPG
+                                แนวผจญภัยแอคชั่นที่มีองค์ประกอบการเอาตัวรอดอยู่ในโลกกึ่งเปิดบรรยากาศ
+                            </CardGameV2>
+                            <CardGameV2
+                                title="Solar Ash"
+                                pic={pic43}
+                                alt="solar ash"
+                                open="TBC"
+                                btn="เรียนรู้เพิ่มเติม"
+                                mb="0"></CardGameV2>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className="py-16 px-40">
