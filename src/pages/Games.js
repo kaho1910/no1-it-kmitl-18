@@ -3,6 +3,7 @@ import DocTitle from "../components/etc/DocTitle";
 import VidPlayer from "../components/etc/VidPlayer";
 import BtnBlue from "../components/etc/BtnBlue";
 import BtnWhite from "../components/etc/BtnWhite";
+import CardGame from "../components/Games/CardGame";
 import pic1 from "../img/Games/01.jpg";
 import pic2 from "../img/Games/02.png";
 import pic3 from "../img/Games/03.jpg";
@@ -26,9 +27,23 @@ import pic20 from "../img/Games/20.jpg";
 import pic21 from "../img/Games/21.jpg";
 import pic22 from "../img/Games/22.png";
 import pic23 from "../img/Games/23.jpg";
+import pic44 from "../img/Games/44.jpg";
+import pic45 from "../img/Games/45.jpg";
+import pic46 from "../img/Games/46.jpg";
+import pic47 from "../img/Games/47.jpg";
+import pic48 from "../img/Games/48.jpg";
+import pic49 from "../img/Games/49.jpg";
+import pic50 from "../img/Games/50.png";
+import pic51 from "../img/Games/51.jpg";
+import pic52 from "../img/Games/52.jpg";
+import pic53 from "../img/Games/53.jpg";
+import pic54 from "../img/Games/54.jpg";
 import pic55 from "../img/Games/55.jpg";
 import pic56 from "../img/Games/56.png";
-import pic57 from "../img/Games/57.png";
+import pic57 from "../img/Games/57.jpg";
+import pic58 from "../img/Games/58.jpg";
+import pic59 from "../img/Games/59.png";
+import pic60 from "../img/Games/60.png";
 import t1 from "../img/Games/t01.jpg";
 
 function Games() {
@@ -315,8 +330,154 @@ function Games() {
                 เกมสุดพิเศษของคอนโซล PlayStation
             </div>
 
+            <div className="py-16 px-40">
+                <h2
+                    className="text-5xl mb-20"
+                    style={{ color: "rgb(0,114,206)" }}>
+                    เกม PS5 เจ๋งๆ อีกเพียบ
+                </h2>
+                <div className="grid grid-cols-4">
+                    <CardGame
+                        title="Assassin's Creed Valhalla"
+                        pic={pic44}
+                        alt="ac:valhalla"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        ขึ้นมาเป็นนักรบ Viking ระดับตำนาน บุกโจมตีศัตรู
+                        ขยายถิ่นฐาน สร้างอำนาจทางการเมืองเพื่อเพื่อแสวงหาชัยชนะ
+                    </CardGame>
+                    <CardGame
+                        title="Watch Dogs Legion"
+                        pic={pic45}
+                        alt="watch dog:region"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        สร้างกองกำลังต่อต้านจากใครก็ตามที่คุณเห็นในขณะที่คุณแฮก
+                        แทรกซึม
+                        และต่อสู้เพื่อชิงกรุงลอนดอนในอนาคตอันใกล้ที่กำลังจะล่มสลายให้กลับคืนมาดังเดิม
+                    </CardGame>
+                    <CardGame
+                        title="Far Cry 6"
+                        pic={pic46}
+                        alt="farcry6"
+                        open="7 ตุลาคม 2021"
+                        btn="เรียนรู้เพิ่มเติม">
+                        ยินดีต้อนรับสู่ Yara เกาะที่เวลาถูกแช่แข็งหยุดนิ่ง
+                        คุณจะต้องต่อสู้กับผู้นำเผด็จการ Antón Castillo และ Diego
+                        ลูกชายของเขาในฐานะกองโจรจากยุคสมัยใหม่
+                    </CardGame>
+                    <CardGame
+                        title="Hitman 3"
+                        pic={pic47}
+                        alt="hitman 3"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        Agent 47
+                        กลับมาในฐานะมืออาชีพผู้เหี้ยมโหดเพื่อสัญญาที่สำคัญที่สุดในอาชีพการงานของเขา
+                    </CardGame>
+                    <CardGame
+                        title="Pragmata"
+                        pic={pic48}
+                        alt="pragmata"
+                        open="2022"
+                        btn="เรียนรู้เพิ่มเติม">
+                        Pragmata
+                        จะพาคุณไปสัมผัสการผจญภัยที่คุณจะไม่มีวันลืมในโลกดิสโทเปียในอนาคตอันใกล้บนดวงจันทร์
+                    </CardGame>
+                    <CardGame
+                        title="Fortnite"
+                        pic={pic49}
+                        alt="fornite"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        Fortnite เตรียมเปิดตัวบน PS5 นี่คือเกม Fortnite
+                        ที่คุณชื่นชอบและรู้จักดี พร้อมใช้ประโยชน์จากขุมพลัง PS5
+                        เต็มพิกัด
+                    </CardGame>
+                    <CardGame
+                        title="Madden NFL 21"
+                        pic={pic50}
+                        alt="madden"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        ผู้เล่นรุ่นใหม่กำลังฝากผลงานไว้ใน NFL
+                        คุณจะทำได้ดีหรือเปล่า พลิกเกม
+                        และกำหนดเส้นทางสู่ชัยชนะของคุณเอง
+                    </CardGame>
+                    <CardGame
+                        title="DIRT 5"
+                        pic={pic51}
+                        alt="dirt 5"
+                        open="TBC">
+                        DIRT 5
+                        เป็นเกมสุดหินของเกมภาคต่อของเกมแข่งรถออฟโรดระดับตำนานของ
+                        Codemasters
+                    </CardGame>
+                    <CardGame
+                        title="Outriders"
+                        pic={pic52}
+                        alt="outriders"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        Outriders เป็นเกมยิงปืนกึ่ง RPG สำหรับผู้เล่น 1-3 คน
+                        ร่วมกันฝ่าฟันท่ามกลางจักรวาลไซไฟที่แสนสิ้นหวังและมืดมิดตามแบบฉบับเดิม
+                    </CardGame>
+                    <CardGame
+                        title="Scarlet Nexus"
+                        pic={pic52}
+                        alt="scarlet nexus"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        ในอนาคตอันไกลโพ้น ฮอร์โมน Psionic
+                        ได้ถูกค้นพบในสมองมนุษย์
+                        ทำให้ผู้คนมีพลังพิเศษทางประสาทสัมผัสและเปลี่ยนแปลงโลกที่เราเคยรู้จักไป
+                    </CardGame>
+                    <CardGame
+                        title="Balan Wonderworld"
+                        pic={pic53}
+                        alt="balan"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        Balan Wonderworld
+                        เป็นเกมแอคชั่นแพลตฟอร์มอันน่าอัศจรรย์ที่มีธีมเรื่องเกี่ยวกับ
+                        Balan Theatre
+                    </CardGame>
+                    <CardGame
+                        title="Immortals Fenyx Rising"
+                        pic={pic54}
+                        alt="fenyx rising"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        Immortals Fenyx Rising™
+                        ปลุกการผจญภัยในตำนานที่ยิ่งใหญ่ให้กลับมามีชีวิตอีกครั้ง
+                        เล่นเป็น Fenyx
+                        ครึ่งคนครึ่งเทพหน้าใหม่ผู้ต้องสยายปีกออกไปช่วยชีวิตเทพกรีกทั้งหลาย
+                    </CardGame>
+                    <CardGame
+                        title="Tom Clancy's Rainbow Six Siege"
+                        pic={pic55}
+                        alt="rs6"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        Rainbow Six Siege
+                        เป็นประสบการณ์เกมยิงปืนแบบมุมมองบุคคลที่หนึ่งสุดเข้มข้นและอัดแน่นไปด้วยกลยุทธ์ที่ดียิ่งขึ้นบน
+                        PS5
+                    </CardGame>
+                    <CardGame
+                        title="Devil May Cry 5: Special Edition"
+                        pic={pic56}
+                        alt="dmc5"
+                        open="วางจำหน่ายแล้ว"
+                        btn="เรียนรู้เพิ่มเติม">
+                        DMC
+                        กลับมาอีกครั้งในแบบที่ดีกว่าที่เคยในตัวเกมสุดมีสไตล์และแอคชั่นเต็มพิกัดของซีรีส์:
+                        Devil May Cry 5 Special Edition!
+                    </CardGame>
+                </div>
+            </div>
+
             <div className="grid grid-cols-2 p-16 px-40">
-                <img src={pic55} alt="ps5 and ps4" />
+                <img src={pic58} alt="ps5 and ps4" />
                 <div className="text-left p-4">
                     <h2 className="text-5xl">
                         ความเข้ากันได้ของไดรฟ์ USB ภายนอก
@@ -348,7 +509,7 @@ function Games() {
             </div>
 
             <div className="grid grid-cols-2 p-16 px-40">
-                <img src={pic56} alt="ps5 and ps4" />
+                <img src={pic59} alt="ps5 and ps4" />
                 <div className="text-left p-4">
                     <h3 className="text-4xl mt-12">เล่นด้วยกันบน PS5™</h3>
                     <p className="text-lg my-6">
@@ -365,7 +526,7 @@ function Games() {
                 className="w-full text-left py-16 px-44"
                 style={{ backgroundColor: "#eeeeee" }}>
                 <div className="w-2/12">
-                    <img src={pic57} width="75%" alt="marvel logo" />
+                    <img src={pic60} width="75%" alt="marvel logo" />
                 </div>
                 <div className="my-8">
                     <p className="text-base leading-7">© 2020 Marvel</p>
