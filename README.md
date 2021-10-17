@@ -20,6 +20,7 @@
     - [ ] choose fonts
 - [ ] PlayStation 5
 - [ ] Game
+    - [ ] re village bg:filter
 - [ ] Accessories
 - [x] Features
     - [x] most of content
