@@ -25,6 +25,7 @@
     - [x] most of content
     - [ ] VidPlayer
         - [x] functional
+        - [ ] box-shadow
         - [ ] glitchy bottom right logo
     - [x] VidBtnBlue .active bg-color fix
 - [ ] Entertainment
