@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import ToTop from "./ToTop";
 
 function DocTitle(title) {
-    // ToTop();
+    ToTop();
     const defaultTitle = useRef(document.title);
 
     useEffect(() => {
