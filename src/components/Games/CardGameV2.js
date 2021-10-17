@@ -25,7 +25,7 @@ const CardGameV2 = (props) => {
         <div className={cardStyle} style={{ backgroundColor: "#eeeeee" }}>
             <img src={props.pic} alt={props.alt} />
             <h4 className="text-2xl text-left mt-10">{props.title}</h4>
-            <p className={textStyle}>{props.children}</p>
+            <div className={textStyle}>{props.children}</div>
             <p className="text-lg text-left">
                 <b>วันเปิดตัว</b>: {props.open}
             </p>
