@@ -24,5 +24,7 @@
 - [ ] Features
     - [x] most of content
     - [ ] VidPlayer
+        - [x] functional
+        - [ ] glitchy bottom right logo
     - [x] VidBtnBlue .active bg-color fix
 - [ ] Entertainment
