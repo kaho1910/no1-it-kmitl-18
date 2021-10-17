@@ -24,5 +24,5 @@
 - [ ] Features
     - [x] most of content
     - [ ] VidPlayer
-    - [ ] VidBtnWhite .active bg-color fix
+    - [x] VidBtnBlue .active bg-color fix
 - [ ] Entertainment
