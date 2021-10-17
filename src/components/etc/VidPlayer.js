@@ -10,8 +10,8 @@ const VidPlayer = (props) => {
             <img
                 src={playCircle}
                 className="absolute"
-                style={{ top: "35%", left: "40%" }}
-                width="20%"
+                style={{ top: "42.5%", left: "42.5%" }}
+                width="15%"
                 alt="play"
             />
             <div
