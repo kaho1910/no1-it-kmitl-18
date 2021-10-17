@@ -355,24 +355,24 @@ function Features() {
             </div>
 
             <div
-                className="grid grid-cols-1 justify-items-center w-full pt-16 pr-48 pl-48 pb-40"
+                className="grid grid-cols-1 justify-items-center w-full pt-16 pr-28 pl-28 pb-32"
                 style={{ backgroundColor: "#eee" }}>
                 <h2 className="text-4xl mb-6">วิดีโอเพิ่มเติม</h2>
                 <p className="text-2xl mb-10 px-10" style={{ color: "#777" }}>
                     คุณสมบัติเพิ่มเติมที่คุณจะพบได้ใน PS5
                 </p>
                 <div className="grid grid-cols-3 h-72">
-                    <div className="mr-8">
+                    <div className="mx-4">
                         <VidPlayer></VidPlayer>
-                        <h4 className="text-2xl mb-4">
+                        <h4 className="text-center text-2xl mb-4">
                             ความช่วยเหลือเกี่ยวกับเกมกับ PlayStation Plus
                         </h4>
                     </div>
-                    <div className="mr-8">
+                    <div className="mx-4">
                         <VidPlayer></VidPlayer>
                         <h4 className="text-2xl mb-4">สร้างและแบ่งปัน</h4>
                     </div>
-                    <div>
+                    <div className="mx-4">
                         <VidPlayer></VidPlayer>
                         <h4 className="text-2xl mb-4">กิจกรรมผู้เล่นหลายคน</h4>
                     </div>
