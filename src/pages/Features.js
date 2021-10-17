@@ -380,13 +380,13 @@ function Features() {
             </div>
 
             <div className="w-full text-left py-16 px-44">
-                <p className="text-sm mb-6">
+                <p className="text-sm mb-6 leading-8">
                     <sup>1</sup>ต้องสมัครสมาชิก PlayStation®Plus
                     เพื่อเล่นเกมแบบผู้เล่นหลายคน PS Plus
                     เป็นการสมัครสมาชิกต่อเนื่องแบบมีค่าใช้จ่าย
                     โดยจะมีการเรียกเก็บค่าบริการโดยอัตโนมัติตามความถี่ที่ผู้บริโภคเลือกไว้ในขณะซื้อจนกว่าจะมีการยกเลิก
                 </p>
-                <p className="text-sm mb-6">
+                <p className="text-sm mb-6 leading-8">
                     <sup>2</sup>ต้องมีบัญชีสำหรับ PlayStation Network
                     ข้อกำหนดทั้งหมดมีผลบังคับใช้ –
                     <span
@@ -398,14 +398,14 @@ function Features() {
                     เมื่อปิดใช้งาน คุณจะยังคงเห็นข้อเสนอและคำแนะนำอยู่
                     เพียงแต่อาจมีความเกี่ยวข้องน้อยลง
                 </p>
-                <p className="text-sm mb-6">
+                <p className="text-sm mb-6 leading-8">
                     <sup>3</sup>ต้องมีบัญชีสำหรับ PlayStation Network
                     เกมที่เข้ากันได้ คอนโซล PS5 ที่มีซอฟต์แวร์ระบบล่าสุด
                     การเชื่อมต่ออินเทอร์เน็ตความเร็วสูง และอุปกรณ์ iOS หรือ
                     Android ที่เข้ากันได้เพื่อเล่นระยะไกล
                     แนะนำให้ใช้การเชื่อมต่อเครือข่ายแบบใช้สายกับคอนโซล PS5
                 </p>
-                <p className="text-sm mb-6">
+                <p className="text-sm mb-6 leading-8">
                     <sup>4</sup>ความจุต่ำสุด 250 GB และสูงสุด 8 TB Seagate 2TB
                     External Game Drive
                     พัฒนาขึ้นภายใต้โปรแกรมที่ได้รับอนุญาตอย่างเป็นทางการสำหรับ
@@ -413,7 +413,7 @@ function Features() {
                     ภายใต้การอนุมัติผลิตภัณฑ์ขั้นสุดท้ายของ Sony Interactive
                     Entertainment
                 </p>
-                <p className="text-sm">
+                <p className="text-sm leading-8">
                     <sup>5</sup>บริการสตรีมมิ่งอาจไม่พร้อมใช้งานในบางภูมิภาค
                     อาจต้องใช้อินเทอร์เน็ต
                     การสมัครสมาชิกบริการสตรีมมิ่งแบบมีค่าใช้จ่าย และบัญชีสำหรับ
