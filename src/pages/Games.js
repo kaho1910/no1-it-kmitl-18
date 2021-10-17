@@ -194,7 +194,44 @@ function Games() {
                 </div>
             </div>
 
-            <div className="bg-red-500 h-96">FIFA21 Banner</div>
+            <div className="w-full relative">
+                <img
+                    src={pic13}
+                    style={{ height: "44rem" }}
+                    className="object-cover object-top w-full"
+                    alt="hogwarts:bg"
+                />
+                <div
+                    className="absolute items-center top-0 w-full h-full px-44 py-16"
+                    style={{
+                        background:
+                            "linear-gradient(to right,  rgba(255,255,255,0.5), rgba(255,255,255,1))",
+                    }}>
+                    <h2
+                        className="text-5xl"
+                        style={{ color: "rgb(0, 114, 206)" }}>
+                        เกมอันน่าทึ่ง
+                    </h2>
+                    <div className="grid grid-cols-2 mt-16 p-4">
+                        <img src={pic14} className="p-2" alt="hogwarts" />
+                        <div className="text-left self-start p-8 pt-0">
+                            <h2 className="text-4xl mt-4 text-left">
+                                EA SPORTS FIFA 21
+                            </h2>
+                            <p className="text-lg mt-8">
+                                สัมผัสได้อีกระดับใน FIFA 21 บน PlayStation 5
+                                ด้วยเทคโนโลยีใหม่อย่างการโหลดที่รวดเร็ว
+                                การเคลื่อนไหวที่สมจริงเหมือนมีชีวิต
+                                และระบบสัมผัสตอบสนองบนคอนโทรลเลอร์ที่จะยกระดับจากการเป็นผู้ชมไปเป็นเสมือนผู้เล่นในสนามเกมลูกหนังจริงๆ
+                            </p>
+                            <p className="text-lg mb-8 mt-4">
+                                <b>วันเปิดตัว</b>: วางจำหน่ายแล้ว
+                            </p>
+                            <BtnBlue txt="เรียนรู้เพิ่มเติม" />
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div className="w-full py-12 px-36">
                 <div className="grid grid-cols-2">
