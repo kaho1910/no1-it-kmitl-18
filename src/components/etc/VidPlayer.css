@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 .video-player:hover {
-    transform: scale(1.015);
+    transform: scale(1.02);
+}
+
+.youtube {
+    background-color: rgba(18, 19, 20, 0.8);
 }
