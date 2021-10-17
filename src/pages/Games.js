@@ -211,16 +211,25 @@ function Games() {
                         </p>
                         <BtnBlue txt="เรียนรู้เพิ่มเติม" />
                     </div>
-                    <img src={pic15} alt="nba2k21" />
+                    <img src={pic15} className="p-2" alt="nba2k21" />
                 </div>
             </div>
 
-            <div className="w-full relative bg-red-500 h-96">
-                cod: cold war
-                {/* <img src={pic16} alt="forbidden west" />
-                <div className="absolute items-center top-0 w-full h-full grid grid-cols-2 px-44">
-                    <img src={pic17} alt="cod:cold wars" />
-                    <div className="text-left self-start p-8">
+            <div className="w-full relative">
+                <img
+                    src={pic16}
+                    style={{ height: "36rem" }}
+                    className="object-cover w-full"
+                    alt="cod:bg"
+                />
+                <div
+                    className="absolute items-center top-0 w-full h-full grid grid-cols-2 px-44"
+                    style={{
+                        background:
+                            "linear-gradient(to left,  rgba(30,30,30,0.4), rgba(30,30,30,1))",
+                    }}>
+                    <img src={pic17} className="p-2" alt="cod:cold wars" />
+                    <div className="text-left self-start p-8 py-12">
                         <h2 className="text-4xl text-white mt-8 text-left">
                             Call of Duty®: Black Ops Cold War
                         </h2>
@@ -237,7 +246,7 @@ function Games() {
                         </p>
                         <BtnWhite txt="เรียนรู้เพิ่มเติม(EN ver.)" />
                     </div>
-                </div> */}
+                </div>
             </div>
 
             <div className="w-full py-12 px-36">
@@ -257,16 +266,25 @@ function Games() {
                         </p>
                         <BtnBlue txt="เรียนรู้เพิ่มเติม" />
                     </div>
-                    <img src={pic18} alt="gta v" />
+                    <img src={pic18} className="p-2" alt="gta v" />
                 </div>
             </div>
 
-            <div className="w-full relative bg-red-500 h-96">
-                rs village
-                {/* <img src={pic19} alt="forbidden west" />
-                <div className="absolute items-center top-0 w-full h-full grid grid-cols-2 px-44">
-                    <img src={pic20} alt="cod:cold wars" />
-                    <div className="text-left self-start p-8">
+            <div className="w-full relative">
+                <img
+                    src={pic19}
+                    style={{ height: "36rem" }}
+                    className="object-cover object-bottom w-full"
+                    alt="rs village:bg"
+                />
+                <div
+                    className="absolute items-center top-0 w-full h-full grid grid-cols-2 px-44"
+                    style={{
+                        background:
+                            "linear-gradient(to left, rgba(20,20,20,0.3), rgba(25,39,52,1))",
+                    }}>
+                    <img src={pic20} className="p-2" alt="rs village" />
+                    <div className="text-left self-start p-8 py-12">
                         <h2 className="text-4xl text-white mt-8 text-left">
                             Resident Evil Village
                         </h2>
@@ -281,7 +299,7 @@ function Games() {
                         </p>
                         <BtnWhite txt="เรียนรู้เพิ่มเติม(EN ver.)" />
                     </div>
-                </div> */}
+                </div>
             </div>
 
             <div className="w-full py-12 px-36">
@@ -297,16 +315,25 @@ function Games() {
                         </p>
                         <BtnBlue txt="เรียนรู้เพิ่มเติม" />
                     </div>
-                    <img src={pic21} alt="marvel's avenger" />
+                    <img src={pic21} className="p-2" alt="marvel's avenger" />
                 </div>
             </div>
 
-            <div className="w-full relative bg-red-500 h-96">
-                hogwarts legacy
-                {/* <img src={pic22} alt="forbidden west" />
-                <div className="absolute items-center top-0 w-full h-full grid grid-cols-2 px-44">
-                    <img src={pic23} alt="hogwarts" />
-                    <div className="text-left self-start p-8">
+            <div className="w-full relative">
+                <img
+                    src={pic22}
+                    style={{ height: "36rem" }}
+                    className="object-cover w-full"
+                    alt="hogwarts:bg"
+                />
+                <div
+                    className="absolute items-center top-0 w-full h-full grid grid-cols-2 px-44"
+                    style={{
+                        background:
+                            "linear-gradient(to left,  rgba(30,30,30,0.4), rgba(30,30,30,1))",
+                    }}>
+                    <img src={pic23} className="p-2" alt="hogwarts" />
+                    <div className="text-left self-start p-8 py-12">
                         <h2 className="text-4xl text-white mt-8 text-left">
                             Hogwarts Legacy
                         </h2>
@@ -320,7 +347,7 @@ function Games() {
                             <b>วันเปิดตัว</b>: 2022
                         </p>
                     </div>
-                </div> */}
+                </div>
             </div>
 
             <div
