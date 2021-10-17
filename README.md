@@ -21,7 +21,7 @@
 - [ ] PlayStation 5
 - [ ] Game
 - [ ] Accessories
-- [ ] Features
+- [x] Features
     - [x] most of content
     - [ ] VidPlayer
         - [x] functional
