@@ -150,7 +150,7 @@ function Games() {
                 </div>
             </div>
 
-            <div className="w-full py-12 px-44">
+            <div className="w-full pt-12 px-44">
                 <div className="grid grid-cols-2">
                     <div className="text-left pr-4 pb-20">
                         <img src={pic9} alt="returnal" />
