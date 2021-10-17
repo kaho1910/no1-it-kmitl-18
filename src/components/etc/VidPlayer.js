@@ -2,12 +2,11 @@ import React from "react";
 import "./VidPlayer.css";
 import playCircle from "../../img/etc/play_circle_white.svg";
 import youtube from "../../img/etc/youtube-logo.svg";
-import t01 from "../../img/Features/t03.jpg";
 
-function VidPlayer() {
+const VidPlayer = (props) => {
     return (
         <div className="video-player relative w-full rounded-3xl my-4 cursor-pointer transition duration-300 ease-in-out bg-red-500">
-            <img src={t01} className="w-full rounded-3xl" alt="thumbs" />
+            <img src={props.pic} className="w-full rounded-3xl" alt="thumbs" />
             <img
                 src={playCircle}
                 className="absolute"
@@ -22,6 +21,6 @@ function VidPlayer() {
             </div>
         </div>
     );
-}
+};
 
 export default VidPlayer;
