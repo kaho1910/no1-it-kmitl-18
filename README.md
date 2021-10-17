@@ -19,8 +19,10 @@
     - [x] Footer
     - [ ] choose fonts
 - [ ] PlayStation 5
-- [ ] Game
-    - [ ] re village bg:filter
+- [x] Game
+    - [x] content
+    - [x] re village bg:filter
+    - [ ] tab indicator
 - [ ] Accessories
 - [x] Features
     - [x] most of content
