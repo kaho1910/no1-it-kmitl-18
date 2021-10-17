@@ -19,6 +19,10 @@
     transform: scale(1.6);
 }
 
+.vid-btn-blue {
+    background: #2d64e6;
+}
+
 .vid-btn-blue:hover {
     outline: none;
     box-shadow: 0 0 0 2px #2d64e6;
