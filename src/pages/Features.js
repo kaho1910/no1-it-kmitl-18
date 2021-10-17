@@ -21,6 +21,11 @@ import pic14 from "../img/Features/14.jpg";
 import pic15 from "../img/Features/15.jpg";
 import pic16 from "../img/Features/16.png";
 import pic17 from "../img/Features/17.png";
+import t01 from "../img/Features/t01.jpg";
+import t02 from "../img/Features/t02.jpg";
+import t03 from "../img/Features/t03.jpg";
+import t04 from "../img/Features/t04.jpg";
+import t05 from "../img/Features/t05.jpg";
 
 function Features() {
     DocTitle("ฟีเจอร์ PS5 | ค้นพบวิธีใหม่ๆ ในการเล่น PlayStation 5");
@@ -91,7 +96,7 @@ function Features() {
                         </div>
                     </div>
                     <div>
-                        <VidPlayer></VidPlayer>
+                        <VidPlayer pic={t01} />
                     </div>
                 </div>
             </div>
@@ -145,7 +150,7 @@ function Features() {
                         </div>
                     </div>
                     <div>
-                        <VidPlayer></VidPlayer>
+                        <VidPlayer pic={t02} />
                     </div>
                 </div>
                 <div className="grid grid-cols-2 justify-items-stretch ml-24 mr-24 pb-8">
@@ -363,17 +368,17 @@ function Features() {
                 </p>
                 <div className="grid grid-cols-3 h-72">
                     <div className="mx-4">
-                        <VidPlayer></VidPlayer>
+                        <VidPlayer pic={t03} />
                         <h4 className="text-center text-2xl mb-4">
                             ความช่วยเหลือเกี่ยวกับเกมกับ PlayStation Plus
                         </h4>
                     </div>
                     <div className="mx-4">
-                        <VidPlayer></VidPlayer>
+                        <VidPlayer pic={t04} />
                         <h4 className="text-2xl mb-4">สร้างและแบ่งปัน</h4>
                     </div>
                     <div className="mx-4">
-                        <VidPlayer></VidPlayer>
+                        <VidPlayer pic={t05} />
                         <h4 className="text-2xl mb-4">กิจกรรมผู้เล่นหลายคน</h4>
                     </div>
                 </div>
