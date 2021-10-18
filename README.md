@@ -8,6 +8,8 @@
 4. `npm install @craco/craco`
 5. `npm install react-router-dom`
 6. `npm install --save styled-components`
+7. `npm install react-animate-on-scroll --save`
+8. `npm install --save animate.css`
 
 ---
 ### Need to do
