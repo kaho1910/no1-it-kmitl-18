@@ -3,6 +3,9 @@ import DocTitle from "../components/etc/DocTitle";
 import VidPlayer from "../components/etc/VidPlayer";
 import VidBtnWhite from "../components/etc/VidBtnWhite";
 import VidBtnBlue from "../components/etc/VidBtnBlue";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
+import "animate.css";
 import "./Features.css";
 import pic1 from "../img/Features/01.png";
 import pic2 from "../img/Features/02.png";
@@ -32,10 +35,23 @@ function Features() {
     return (
         <div>
             <div className="relative">
-                <img src={pic1} width="100%" alt="ps5" />
+                {/* <ScrollAnimation
+                    animateIn="animate__fadeIn"
+                    duration="1.5"
+                    animateOnce="true"> */}
+                <img
+                    className="animate__animated animate__fadeIn"
+                    src={pic1}
+                    width="100%"
+                    alt="ps5"
+                />
+                {/* </ScrollAnimation> */}
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div className="grid justify-items-center">
-                        <div>
+                        <ScrollAnimation
+                            animateIn="animate__fadeIn"
+                            duration="1.5"
+                            animateOnce="true">
                             <h1 className="text-6xl mb-6 text-left">
                                 ฟีเจอร์ PS5™ อื่นๆ
                             </h1>
@@ -43,7 +59,7 @@ function Features() {
                                 ลองสัมผัส UI ของคอนโซล PS5 ให้ละเอียด
                                 และค้นพบวิธีใหม่ๆ ในการเล่น
                             </p>
-                        </div>
+                        </ScrollAnimation>
                     </div>
                     <div></div>
                 </div>
@@ -111,22 +127,35 @@ function Features() {
                     alt="game 1"
                 />
                 <div className="grid grid-cols-2">
-                    <div className="p-12 pt-0 z-40">
+                    <ScrollAnimation
+                        animateIn="fadeInUpCus"
+                        duration="2"
+                        animateOnce="true"
+                        className="p-12 pt-0 z-40">
                         <img src={pic5} alt="game 2" />
-                    </div>
+                    </ScrollAnimation>
                     <div className="flex items-center text-left p-2 mt-4">
-                        <div>
+                        <ScrollAnimation
+                            animateIn="fadeInUpCus"
+                            duration="2"
+                            delay="75"
+                            animateOnce="true">
                             <h3 className="text-4xl mb-5">การแนะนำเกม</h3>
                             <p className="text-lg">
                                 ค้นหาการผจญภัยครั้งถัดไปของคุณผ่านคำแนะนำที่จัดตามประเภทของเกมที่คุณชื่นชอบ
                                 <sup>2</sup>
                             </p>
-                        </div>
+                        </ScrollAnimation>
                     </div>
                 </div>
-                <p className="text-left text-sm">
-                    Destruction AllStars คาดว่าจะเปิดตัวเดือนกุมภาพันธ์ 2021
-                </p>
+                <ScrollAnimation
+                    animateIn="fadeInUpCus"
+                    duration="2"
+                    animateOnce="true">
+                    <p className="text-left text-sm">
+                        Destruction AllStars คาดว่าจะเปิดตัวเดือนกุมภาพันธ์ 2021
+                    </p>
+                </ScrollAnimation>
             </div>
 
             <div className="grid justify-items-center w-full p-16 pb-6 pt-0 relative">
@@ -189,7 +218,25 @@ function Features() {
             </div>
 
             <div className="relative">
-                <img src={pic9} width="100%" alt="mutiplayer" />
+                <img
+                    src={pic9}
+                    className="opacity-0"
+                    width="100%"
+                    alt="mutiplayer"
+                />
+                <div className="absolute w-full h-full top-0 bg-black"></div>
+                <ScrollAnimation
+                    animateIn="animate__fadeIn"
+                    duration="0.5"
+                    animateOnce="true"
+                    offset="450">
+                    <img
+                        src={pic9}
+                        className="absolute top-0 object-fit"
+                        width="100%"
+                        alt="mutiplayer"
+                    />
+                </ScrollAnimation>
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div className="grid justify-items-center">
                         <div className="p-40 grid justify-items-start">
@@ -241,7 +288,12 @@ function Features() {
             </div>
 
             <div className="relative">
-                <img src={pic12} height="95%" alt="mutiplayer" />
+                <ScrollAnimation
+                    animateIn="slideInUpCus"
+                    duration="1.5"
+                    animateOnce="true">
+                    <img src={pic12} height="95%" alt="mutiplayer" />
+                </ScrollAnimation>
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div></div>
                     <div className="grid justify-items-center">
@@ -329,7 +381,12 @@ function Features() {
             </div>
 
             <div className="relative">
-                <img src={pic17} width="100%" alt="mutiplayer" />
+                <ScrollAnimation
+                    animateIn="slideInUpCus"
+                    duration="1.5"
+                    animateOnce="true">
+                    <img src={pic17} width="100%" alt="mutiplayer" />
+                </ScrollAnimation>
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div className="grid justify-items-center">
                         <div className="p-40 grid justify-items-start">
