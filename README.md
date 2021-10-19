@@ -25,7 +25,7 @@
     - [x] content
     - [x] re village bg:filter
     - [x] tab indicator
-- [ ] Accessories
+- [x] Accessories
 - [x] Features
     - [x] most of content
     - [x] VidPlayer
