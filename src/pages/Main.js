@@ -1,11 +1,14 @@
 import React from "react";
+import Show from "./Show";
 import DocTitle from "../components/etc/DocTitle";
 import logoMarvel from "../img/Games/60.png";
 
 function main() {
     DocTitle("PlayStation 5 | Play Has No Limits | PlayStation");
     return (
-        <div>
+        <div className="content">
+            <Show />
+
             <div
                 className="w-full text-left py-16 px-44"
                 style={{ backgroundColor: "#eeeeee" }}>

@@ -147,6 +147,12 @@ p{
     padding-top: 4%;
     padding-bottom: 5%;
 }
+.lbox{
+    background-color: #eee;
+}
+.inline{
+    font-size: .65em;
+}
 @keyframes fadein {
     from { opacity: 0.83; 
             transform: scale(1.0);}
