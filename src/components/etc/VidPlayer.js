@@ -5,7 +5,7 @@ import youtube from "../../img/etc/youtube-logo.svg";
 
 const VidPlayer = (props) => {
     return (
-        <div className="video-player relative w-full rounded-3xl my-4 cursor-pointer transition duration-300 ease-in-out bg-red-500">
+        <div className="video-player relative w-full rounded-3xl my-4 cursor-pointer transition duration-300 ease-in-out shadow-lg hover:shadow-xl bg-red-500">
             <img src={props.pic} className="w-full rounded-3xl" alt="thumbs" />
             <img
                 src={playCircle}
