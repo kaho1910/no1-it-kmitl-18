@@ -486,8 +486,7 @@ function Games() {
                             style={{ backgroundColor: "#0072ce" }}></div>
                     </div>
                 </div>
-                <div id="tab-indi" className="mb-10"></div>
-                <div id="tba-body" className="px-44">
+                <div id="tba-body" className="px-44 pt-12">
                     <div id="tab1" className="">
                         <div className="grid grid-cols-2">
                             <CardGameV2
