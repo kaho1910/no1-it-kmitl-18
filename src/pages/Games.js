@@ -74,19 +74,23 @@ function switchTab(num) {
         if (tab === 1) {
             tab = 2;
             document.getElementById("head1").className =
-                "text-xl cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out duration-400";
+                "text-lg cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out";
             document.getElementById("head2").className =
-                "text-xl cursor-pointer p-2 inline";
+                "text-lg cursor-pointer p-2 inline";
             document.getElementById("tab1").className = "hidden";
             document.getElementById("tab2").className = "";
+            document.getElementById("tab-bar").className =
+                "w-1/2 transition-all duration-300 ease-in-out";
         } else {
             tab = 1;
             document.getElementById("head1").className =
-                "text-xl cursor-pointer p-2 inline";
+                "text-lg cursor-pointer p-2 inline";
             document.getElementById("head2").className =
-                "text-xl cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out duration-400";
+                "text-lg cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out";
             document.getElementById("tab1").className = "";
             document.getElementById("tab2").className = "hidden";
+            document.getElementById("tab-bar").className =
+                "w-0 transition-all duration-300 ease-in-out";
         }
     }
 }
@@ -446,23 +450,41 @@ function Games() {
                     *ไม่รองรับคอนโซลอื่นๆ ในช่วงเวลานี้ รองรับการเล่นบน PC
                     อีกด้วย
                 </p>
-                <div id="tab-head" className="mt-28">
-                    <li
-                        id="head1"
-                        onClick={() => {
-                            switchTab(1);
-                        }}
-                        className="text-xl cursor-pointer p-2 inline">
-                        เกมพิเศษสำหรับคอนโซล PS5
-                    </li>
-                    <li
-                        id="head2"
-                        onClick={() => {
-                            switchTab(2);
-                        }}
-                        className="text-xl cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out duration-400">
-                        เกมพิเศษสำหรับคอนโซล PlayStation
-                    </li>
+                <div
+                    id="tab-head"
+                    className="mt-28 mx-auto"
+                    style={{ width: "35%" }}>
+                    <div
+                        className="grid grid-cols-2 justify-items-stretch"
+                        style={{ borderBottom: "solid 0.25rem #dedede" }}>
+                        <div
+                            id="head1"
+                            onClick={() => {
+                                switchTab(1);
+                            }}
+                            className="text-lg cursor-pointer p-2 inline"
+                            style={{ transition: "all 0.4s" }}>
+                            เกมพิเศษสำหรับคอนโซล PS5
+                        </div>
+                        <div
+                            id="head2"
+                            onClick={() => {
+                                switchTab(2);
+                            }}
+                            className="text-lg cursor-pointer p-2 inline text-gray-500 hover:text-gray-400 transition ease-in-out"
+                            style={{ transition: "all 0.4s" }}>
+                            เกมพิเศษสำหรับคอนโซล PlayStation
+                        </div>
+                    </div>
+                    <div className="flex transform -translate-y-1">
+                        <div
+                            id="tab-bar"
+                            className="w-0 ease-in-out"
+                            style={{ transition: "all 0.4s" }}></div>
+                        <div
+                            className="h-1 w-1/2"
+                            style={{ backgroundColor: "#0072ce" }}></div>
+                    </div>
                 </div>
                 <div id="tab-indi" className="mb-10"></div>
                 <div id="tba-body" className="px-44">
