@@ -24,7 +24,7 @@
 - [x] Game
     - [x] content
     - [x] re village bg:filter
-    - [ ] tab indicator
+    - [x] tab indicator
 - [ ] Accessories
 - [x] Features
     - [x] most of content
