@@ -6,7 +6,7 @@ import charge from "../img/Accessories/charge.png";
 import pulse from "../img/Accessories/pulse.png";
 import remote from "../img/Accessories/remote.png";
 import cam from "../img/Accessories/cam.png";
-// import VIDACCZ from "../img/Accessories/vidacc.mp4";
+import VIDACCZ from "../img/Accessories/vidacc.mp4";
 import BtnBlue from "../components/etc/BtnBlue";
 
 function Accessories() {
@@ -26,7 +26,7 @@ function Accessories() {
                         height: "850px",
                         objectFit: "cover",
                     }}>
-                    {/* <source src={VIDACCZ} /> */}
+                    <source src={VIDACCZ} />
                 </video>
                 <div className="theheader absolute">
                     <h1 className="text-5xl" style={{ color: "#0072CE" }}>
