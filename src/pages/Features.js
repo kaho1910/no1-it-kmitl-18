@@ -3,6 +3,9 @@ import DocTitle from "../components/etc/DocTitle";
 import VidPlayer from "../components/etc/VidPlayer";
 import VidBtnWhite from "../components/etc/VidBtnWhite";
 import VidBtnBlue from "../components/etc/VidBtnBlue";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
+import "animate.css";
 import "./Features.css";
 import pic1 from "../img/Features/01.png";
 import pic2 from "../img/Features/02.png";
@@ -21,16 +24,34 @@ import pic14 from "../img/Features/14.jpg";
 import pic15 from "../img/Features/15.jpg";
 import pic16 from "../img/Features/16.png";
 import pic17 from "../img/Features/17.png";
+import t01 from "../img/Features/t01.jpg";
+import t02 from "../img/Features/t02.jpg";
+import t03 from "../img/Features/t03.jpg";
+import t04 from "../img/Features/t04.jpg";
+import t05 from "../img/Features/t05.jpg";
 
 function Features() {
     DocTitle("ฟีเจอร์ PS5 | ค้นพบวิธีใหม่ๆ ในการเล่น PlayStation 5");
     return (
         <div>
             <div className="relative">
-                <img src={pic1} width="100%" alt="ps5" />
+                {/* <ScrollAnimation
+                    animateIn="animate__fadeIn"
+                    duration="1.5"
+                    animateOnce="true"> */}
+                <img
+                    className="animate__animated animate__fadeIn"
+                    src={pic1}
+                    width="100%"
+                    alt="ps5"
+                />
+                {/* </ScrollAnimation> */}
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div className="grid justify-items-center">
-                        <div>
+                        <ScrollAnimation
+                            animateIn="animate__fadeIn"
+                            duration="1.5"
+                            animateOnce="true">
                             <h1 className="text-6xl mb-6 text-left">
                                 ฟีเจอร์ PS5™ อื่นๆ
                             </h1>
@@ -38,7 +59,7 @@ function Features() {
                                 ลองสัมผัส UI ของคอนโซล PS5 ให้ละเอียด
                                 และค้นพบวิธีใหม่ๆ ในการเล่น
                             </p>
-                        </div>
+                        </ScrollAnimation>
                     </div>
                     <div></div>
                 </div>
@@ -91,7 +112,7 @@ function Features() {
                         </div>
                     </div>
                     <div>
-                        <VidPlayer></VidPlayer>
+                        <VidPlayer pic={t01} />
                     </div>
                 </div>
             </div>
@@ -106,22 +127,35 @@ function Features() {
                     alt="game 1"
                 />
                 <div className="grid grid-cols-2">
-                    <div className="p-12 pt-0 z-40">
+                    <ScrollAnimation
+                        animateIn="fadeInUpCus"
+                        duration="2"
+                        animateOnce="true"
+                        className="p-12 pt-0 z-40">
                         <img src={pic5} alt="game 2" />
-                    </div>
+                    </ScrollAnimation>
                     <div className="flex items-center text-left p-2 mt-4">
-                        <div>
+                        <ScrollAnimation
+                            animateIn="fadeInUpCus"
+                            duration="2"
+                            delay="75"
+                            animateOnce="true">
                             <h3 className="text-4xl mb-5">การแนะนำเกม</h3>
                             <p className="text-lg">
                                 ค้นหาการผจญภัยครั้งถัดไปของคุณผ่านคำแนะนำที่จัดตามประเภทของเกมที่คุณชื่นชอบ
                                 <sup>2</sup>
                             </p>
-                        </div>
+                        </ScrollAnimation>
                     </div>
                 </div>
-                <p className="text-left text-sm">
-                    Destruction AllStars คาดว่าจะเปิดตัวเดือนกุมภาพันธ์ 2021
-                </p>
+                <ScrollAnimation
+                    animateIn="fadeInUpCus"
+                    duration="2"
+                    animateOnce="true">
+                    <p className="text-left text-sm">
+                        Destruction AllStars คาดว่าจะเปิดตัวเดือนกุมภาพันธ์ 2021
+                    </p>
+                </ScrollAnimation>
             </div>
 
             <div className="grid justify-items-center w-full p-16 pb-6 pt-0 relative">
@@ -145,7 +179,7 @@ function Features() {
                         </div>
                     </div>
                     <div>
-                        <VidPlayer></VidPlayer>
+                        <VidPlayer pic={t02} />
                     </div>
                 </div>
                 <div className="grid grid-cols-2 justify-items-stretch ml-24 mr-24 pb-8">
@@ -184,7 +218,25 @@ function Features() {
             </div>
 
             <div className="relative">
-                <img src={pic9} width="100%" alt="mutiplayer" />
+                <img
+                    src={pic9}
+                    className="opacity-0"
+                    width="100%"
+                    alt="mutiplayer"
+                />
+                <div className="absolute w-full h-full top-0 bg-black"></div>
+                <ScrollAnimation
+                    animateIn="animate__fadeIn"
+                    duration="0.5"
+                    animateOnce="true"
+                    offset="450">
+                    <img
+                        src={pic9}
+                        className="absolute top-0 object-fit"
+                        width="100%"
+                        alt="mutiplayer"
+                    />
+                </ScrollAnimation>
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div className="grid justify-items-center">
                         <div className="p-40 grid justify-items-start">
@@ -236,7 +288,12 @@ function Features() {
             </div>
 
             <div className="relative">
-                <img src={pic12} height="95%" alt="mutiplayer" />
+                <ScrollAnimation
+                    animateIn="slideInUpCus"
+                    duration="1.5"
+                    animateOnce="true">
+                    <img src={pic12} height="95%" alt="mutiplayer" />
+                </ScrollAnimation>
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div></div>
                     <div className="grid justify-items-center">
@@ -324,7 +381,12 @@ function Features() {
             </div>
 
             <div className="relative">
-                <img src={pic17} width="100%" alt="mutiplayer" />
+                <ScrollAnimation
+                    animateIn="slideInUpCus"
+                    duration="1.5"
+                    animateOnce="true">
+                    <img src={pic17} width="100%" alt="mutiplayer" />
+                </ScrollAnimation>
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div className="grid justify-items-center">
                         <div className="p-40 grid justify-items-start">
@@ -355,38 +417,38 @@ function Features() {
             </div>
 
             <div
-                className="grid grid-cols-1 justify-items-center w-full pt-16 pr-48 pl-48 pb-40"
+                className="grid grid-cols-1 justify-items-center w-full pt-16 pr-28 pl-28 pb-32"
                 style={{ backgroundColor: "#eee" }}>
                 <h2 className="text-4xl mb-6">วิดีโอเพิ่มเติม</h2>
                 <p className="text-2xl mb-10 px-10" style={{ color: "#777" }}>
                     คุณสมบัติเพิ่มเติมที่คุณจะพบได้ใน PS5
                 </p>
                 <div className="grid grid-cols-3 h-72">
-                    <div className="mr-8">
-                        <VidPlayer></VidPlayer>
-                        <h4 className="text-2xl mb-4">
+                    <div className="mx-4">
+                        <VidPlayer pic={t03} />
+                        <h4 className="text-center text-2xl mb-4">
                             ความช่วยเหลือเกี่ยวกับเกมกับ PlayStation Plus
                         </h4>
                     </div>
-                    <div className="mr-8">
-                        <VidPlayer></VidPlayer>
+                    <div className="mx-4">
+                        <VidPlayer pic={t04} />
                         <h4 className="text-2xl mb-4">สร้างและแบ่งปัน</h4>
                     </div>
-                    <div>
-                        <VidPlayer></VidPlayer>
+                    <div className="mx-4">
+                        <VidPlayer pic={t05} />
                         <h4 className="text-2xl mb-4">กิจกรรมผู้เล่นหลายคน</h4>
                     </div>
                 </div>
             </div>
 
             <div className="w-full text-left py-16 px-44">
-                <p className="text-sm mb-6">
+                <p className="text-sm mb-6 leading-8">
                     <sup>1</sup>ต้องสมัครสมาชิก PlayStation®Plus
                     เพื่อเล่นเกมแบบผู้เล่นหลายคน PS Plus
                     เป็นการสมัครสมาชิกต่อเนื่องแบบมีค่าใช้จ่าย
                     โดยจะมีการเรียกเก็บค่าบริการโดยอัตโนมัติตามความถี่ที่ผู้บริโภคเลือกไว้ในขณะซื้อจนกว่าจะมีการยกเลิก
                 </p>
-                <p className="text-sm mb-6">
+                <p className="text-sm mb-6 leading-8">
                     <sup>2</sup>ต้องมีบัญชีสำหรับ PlayStation Network
                     ข้อกำหนดทั้งหมดมีผลบังคับใช้ –
                     <span
@@ -398,14 +460,14 @@ function Features() {
                     เมื่อปิดใช้งาน คุณจะยังคงเห็นข้อเสนอและคำแนะนำอยู่
                     เพียงแต่อาจมีความเกี่ยวข้องน้อยลง
                 </p>
-                <p className="text-sm mb-6">
+                <p className="text-sm mb-6 leading-8">
                     <sup>3</sup>ต้องมีบัญชีสำหรับ PlayStation Network
                     เกมที่เข้ากันได้ คอนโซล PS5 ที่มีซอฟต์แวร์ระบบล่าสุด
                     การเชื่อมต่ออินเทอร์เน็ตความเร็วสูง และอุปกรณ์ iOS หรือ
                     Android ที่เข้ากันได้เพื่อเล่นระยะไกล
                     แนะนำให้ใช้การเชื่อมต่อเครือข่ายแบบใช้สายกับคอนโซล PS5
                 </p>
-                <p className="text-sm mb-6">
+                <p className="text-sm mb-6 leading-8">
                     <sup>4</sup>ความจุต่ำสุด 250 GB และสูงสุด 8 TB Seagate 2TB
                     External Game Drive
                     พัฒนาขึ้นภายใต้โปรแกรมที่ได้รับอนุญาตอย่างเป็นทางการสำหรับ
@@ -413,7 +475,7 @@ function Features() {
                     ภายใต้การอนุมัติผลิตภัณฑ์ขั้นสุดท้ายของ Sony Interactive
                     Entertainment
                 </p>
-                <p className="text-sm">
+                <p className="text-sm leading-8">
                     <sup>5</sup>บริการสตรีมมิ่งอาจไม่พร้อมใช้งานในบางภูมิภาค
                     อาจต้องใช้อินเทอร์เน็ต
                     การสมัครสมาชิกบริการสตรีมมิ่งแบบมีค่าใช้จ่าย และบัญชีสำหรับ

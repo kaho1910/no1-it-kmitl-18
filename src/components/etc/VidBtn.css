@@ -7,12 +7,14 @@
 
 .vid-btn-white:hover {
     outline: none;
-    box-shadow: 0 0 0 2px #fff;
+    box-shadow: 0 0 0 1px #fff;
 }
 
 .vid-btn-white:active {
+    outline: none;
     background: #ccc;
-    box-shadow: 0 0 0 2px #ccc;
+    background-clip: padding-box;
+    box-shadow: 0 0 0 1px #ccc;
 }
 
 .arrow-blue {
@@ -25,10 +27,12 @@
 
 .vid-btn-blue:hover {
     outline: none;
-    box-shadow: 0 0 0 2px #2d64e6;
+    box-shadow: 0 0 0 1px #2d64e6;
 }
 
 .vid-btn-blue:active {
+    outline: none;
     background: #123b9b;
-    box-shadow: 0 0 0 2px #123b9b;
+    background-clip: padding-box;
+    box-shadow: 0 0 0 1px #123b9b;
 }

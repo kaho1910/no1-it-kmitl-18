@@ -8,6 +8,8 @@
 4. `npm install @craco/craco`
 5. `npm install react-router-dom`
 6. `npm install --save styled-components`
+7. `npm install react-animate-on-scroll --save`
+8. `npm install --save animate.css`
 
 ---
 ### Need to do
@@ -19,10 +21,16 @@
     - [x] Footer
     - [ ] choose fonts
 - [ ] PlayStation 5
-- [ ] Game
+- [x] Game
+    - [x] content
+    - [x] re village bg:filter
+    - [ ] tab indicator
 - [ ] Accessories
-- [ ] Features
+- [x] Features
     - [x] most of content
-    - [ ] VidPlayer
+    - [x] VidPlayer
+        - [x] functional
+        - [x] box-shadow
+        - [ ] glitchy bottom right logo
     - [x] VidBtnBlue .active bg-color fix
 - [ ] Entertainment
