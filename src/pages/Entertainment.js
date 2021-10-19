@@ -145,18 +145,10 @@ function Entertainment() {
                         </div>
                     </div>
                     <div className="mainbox2">
-                        <div className="imagebox pb-8">
-                            <img className="img-fluid appletv" src={appletv} alt="appletv" />
-                        </div>
                         <div className="textbox">
                             <h3 className="pb-5">Apple TV</h3>
                             <p>รับชมรายการออริจินอลจาก Apple TV+ สมัครสมาชิกช่องพรีเมียม ซื้อหรือเช่าภาพยนตร์ใหม่ล่าสุด ทั้งหมดในทีวีของคุณ ทั้งหมดในแอปเดียว</p>
                         </div>
-                    </div>
-                </div>
-                <div className="foottext">
-                    <div>
-                        <p>ตรวจสอบส่วนมีเดียของ PS5 เพื่อดูแอปความบันเทิงทั้งหมดที่พร้อมให้บริการในภูมิภาคของคุณ</p>
                     </div>
                 </div>
             </div>
