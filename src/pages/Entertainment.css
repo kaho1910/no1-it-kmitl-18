@@ -126,9 +126,6 @@ p{
 .acttext{
     max-width: 60%;
 }
-.gmtext{
-    max-width: 35%;
-}
 .stxlayer{
     display:flex;
     flex-direction: column;
@@ -172,7 +169,7 @@ p{
     left: 8%;
 }
 .gm{
-    right: 8%;
+    right:8%;
 }
 .act{
     left:8%;
@@ -181,7 +178,6 @@ p{
     display:flex;
     justify-content: center;
     margin:0;
-    padding-top:5%;
 }
 @keyframes fadein {
     from { opacity: 0.83; 

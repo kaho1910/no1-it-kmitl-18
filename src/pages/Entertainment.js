@@ -64,11 +64,12 @@ function Entertainment() {
             </div>
             {/* --------------------------------------------------------------------------------------------------------------- */}
             <div className="thrlayer">
+                <div>
                 <div className="relative">
                     <div style={{color:"white"}}>
                         <img className="img-fluid nftm relative" src={nf_etm} alt="nf_etm" width="100%" />
                         <div className="absolute top-1/3 nf">
-                            <div className="grid justify-items-start text-left">
+                            <div className="grid justify-items-start text-left"  style={{width:"440px"}}>
                             <h3 className="hh3 pb-6">Netflix</h3>
                             <p className="pb-6 nftext">ดูภาพยนตร์ รายการทีวี และอื่นๆ จาก Netflix บน PS5 และสตรีมรายการออริจินอลล่าสุด</p>
                             <br></br>
@@ -81,7 +82,7 @@ function Entertainment() {
                     <div  style={{color:"black"}}>
                         <img className="img-fluid gmtm relative" src={gm_etm} alt="gm_etm" width="100%" />
                         <div className="absolute top-1/3 gm">
-                            <div className="grid justify-items-start text-left">
+                            <div className="grid justify-items-start text-left" style={{width:"440px"}}>
                             <h3 className="hh3 pb-6">Twitch</h3>
                             <p className="pb-6 gmtext">สตรีมตอนนี้ เข้าร่วมชุมชนที่มีสตรีมเมอร์ชื่อดังและผู้คนอีกนับล้านที่สตรีมในทุกวันเพื่อเชื่อมโยงสิ่งต่างๆ ที่คุณรัก  ตั้งแต่เกมจนไปเพลง และอื่นๆ อีกมากมาย ตอนนี้คุณสามารถถ่ายทอดการเล่นเกมของคุณเองได้จากคอนโซล PS5</p>
                             </div>
@@ -100,6 +101,7 @@ function Entertainment() {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
                 </div>
             <br></br>
