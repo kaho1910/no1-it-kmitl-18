@@ -34,3 +34,5 @@
         - [ ] glitchy bottom right logo
     - [x] VidBtnBlue .active bg-color fix
 - [ ] Entertainment
+    - [x] most of the content
+    - [ ] animation
