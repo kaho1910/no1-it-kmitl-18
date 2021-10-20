@@ -7,7 +7,7 @@ function main() {
     DocTitle("PlayStation 5 | Play Has No Limits | PlayStation");
     return (
         <div className="content">
-            <Show />
+            {/* <Show /> */}
 
             <div
                 className="w-full text-left py-16 px-44"
