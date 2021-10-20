@@ -55,7 +55,7 @@ function Entertainment() {
                         <img className="img-fluid yttm relative" src={yt_etm} alt="yt_etm" width="100%" />
                         <div className="absolute top-2/4 yt">
                             <div className="grid justify-items-start">
-                            <h3>YouTube</h3>
+                            <h3 className="pb-4">YouTube</h3>
                             <p>เอนกาย ผ่อนคลาย และเพลิดเพลินไปกับ เนื้อหาล่าสุดจาก YouTube</p>
                         </div>
                     </div>
