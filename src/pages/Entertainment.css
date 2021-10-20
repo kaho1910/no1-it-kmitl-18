@@ -26,6 +26,9 @@
     font-size: 0.75rem;
     max-width: 95%;
 }
+.hh3{
+    font-size: 2rem;
+}
 .banner{
     display:flex;
     justify-content: center;
@@ -117,6 +120,15 @@ p{
 .textbox{
     font-size: 1.5em;
 }
+.nftext{
+    max-width: 95%;
+}
+.acttext{
+    max-width: 60%;
+}
+.gmtext{
+    max-width: 35%;
+}
 .stxlayer{
     display:flex;
     flex-direction: column;
@@ -152,6 +164,24 @@ p{
 }
 .inline{
     font-size: .65em;
+}
+.yt{
+    right:8%;
+}
+.nf{
+    left: 8%;
+}
+.gm{
+    right: 8%;
+}
+.act{
+    left:8%;
+}
+.gm_layout{
+    display:flex;
+    justify-content: center;
+    margin:0;
+    padding-top:5%;
 }
 @keyframes fadein {
     from { opacity: 0.83; 

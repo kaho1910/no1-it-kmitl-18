@@ -13,6 +13,8 @@ import spotify from "../img/img_etm/spotify.png";
 import appletv from "../img/img_etm/appletv.png";
 import remote from "../img/img_etm/remote.png";
 import "../pages/Entertainment.css";
+import "animate.css/animate.min.css";
+import "animate.css";
 import BtnBlue from "../components/etc/BtnBlue";
 
 
@@ -23,7 +25,7 @@ function Entertainment() {
     );
     return (
         <div className="body-block">
-            <div className="banner position-relative">
+            <div className="banner relative">
                 <div className="picbox">
                     <img className="img-fluid fetm" src={f_etm} alt="Ps5etm" width="100%" />
                 </div>
@@ -48,26 +50,58 @@ function Entertainment() {
                         <p>ส่วนมีเดียของอินเตอร์เฟซผู้ใช้คอนโซล PS5 รวมบริการสตรีมมิ่งฟรีและแบบมีค่าใช้จ่ายที่ได้รับการคัดสรรไว้ด้วยกันในทีเดียว คุณจึงพบและเปิดซีรีส์ตอนล่าสุด ภาพยนตร์ และรายการทีวีที่แนะนำเพียงกดปุ่ม</p>
                     </div>
                 </div>
-                <div className="yt_layout position-relative">
+                <div className="yt_layout relative">
                     <div>
-                        <img className="img-fluid yttm" src={yt_etm} alt="yt_etm" width="100%" />
+                        <img className="img-fluid yttm relative" src={yt_etm} alt="yt_etm" width="100%" />
+                        <div className="absolute top-2/4 yt">
+                            <div className="grid justify-items-start">
+                            <h3>YouTube</h3>
+                            <p>เอนกาย ผ่อนคลาย และเพลิดเพลินไปกับ เนื้อหาล่าสุดจาก YouTube</p>
+                        </div>
                     </div>
+                </div>
                 </div>
             </div>
             {/* --------------------------------------------------------------------------------------------------------------- */}
             <div className="thrlayer">
-                <div>
-                    <div className="position-relative">
-                        <img className="img-fluid nftm" src={nf_etm} alt="nf_etm" width="100%" />
-                    </div>
-                    <div className="position-relative">
-                        <img className="img-fluid gmtm" src={gm_etm} alt="gm_etm" width="100%" />
-                    </div>
-                    <div className="position-relative">
-                        <img className="img-fluid acttm" src={act_etm} alt="gm_etm" width="100%" />
+                <div className="relative">
+                    <div style={{color:"white"}}>
+                        <img className="img-fluid nftm relative" src={nf_etm} alt="nf_etm" width="100%" />
+                        <div className="absolute top-1/3 nf">
+                            <div className="grid justify-items-start text-left">
+                            <h3 className="hh3 pb-6">Netflix</h3>
+                            <p className="pb-6 nftext">ดูภาพยนตร์ รายการทีวี และอื่นๆ จาก Netflix บน PS5 และสตรีมรายการออริจินอลล่าสุด</p>
+                            <br></br>
+                            <p className="llt">ต้องเป็นสมาชิกบริการสตรีม Netflix จำหน่ายแยกต่างหาก<sup>4</sup> </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div className="gm_layout relative">
+                    <div  style={{color:"black"}}>
+                        <img className="img-fluid gmtm relative" src={gm_etm} alt="gm_etm" width="100%" />
+                        <div className="absolute top-1/3 gm">
+                            <div className="grid justify-items-start text-left">
+                            <h3 className="hh3 pb-6">Twitch</h3>
+                            <p className="pb-6 gmtext">สตรีมตอนนี้ เข้าร่วมชุมชนที่มีสตรีมเมอร์ชื่อดังและผู้คนอีกนับล้านที่สตรีมในทุกวันเพื่อเชื่อมโยงสิ่งต่างๆ ที่คุณรัก  ตั้งแต่เกมจนไปเพลง และอื่นๆ อีกมากมาย ตอนนี้คุณสามารถถ่ายทอดการเล่นเกมของคุณเองได้จากคอนโซล PS5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="relative">
+                    <div  style={{color:"white"}}>
+                        <img className="img-fluid acttm relative" src={act_etm} alt="ac_etm" width="100%" />
+                        <div className="absolute top-1/3 act">
+                            <div className="grid justify-items-start text-left">
+                            <h3 className="hh3 pb-6">Amazon Prime Video</h3>
+                            <p className="pb-6 acttext">รับชมภาพยนตร์และรายการทีวี รวมถึงรายการจาก Amazon Originals เช่น The Boys, Tom Clancy's Jack Ryan และอื่นๆ</p>
+                            <br></br>
+                            <p className="llt">ต้องสมัครสมาชิก Amazon Prime จำหน่ายแยกต่างหาก<sup>3</sup> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
             <br></br>
             {/* --------------------------------------------------------------------------------------------------------------- */}
             <br></br>
