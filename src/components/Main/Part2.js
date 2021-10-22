@@ -31,7 +31,7 @@ function Part2() {
                     และเสียง 3D* รวมทั้งเกมรุ่นใหม่ล่าสุดอันน่าเหลือเชื่อของ
                     PlayStation
                 </p>
-                <p className="text-base mt-16">
+                <p className="text-base mt-16 pb-12">
                     *เสียง 3D กับหูฟังที่เข้ากันได้
                 </p>
             </div>
