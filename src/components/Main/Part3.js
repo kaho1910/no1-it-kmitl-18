@@ -1,5 +1,6 @@
 import React from "react";
 import VidPlayer from "../etc/VidPlayer";
+import bg from "../../img/Main/Part3/bg.png";
 import pic01 from "../../img/Main/Part3/01.jpg";
 import pic02 from "../../img/Main/Part3/02.jpg";
 import pic03 from "../../img/Main/Part3/03.jpg";
@@ -9,11 +10,15 @@ import pic05 from "../../img/Main/Part3/05.jpg";
 function Part3() {
     return (
         <div
-            className="py-40 px-60 text-white grid justify-items-center"
+            className="py-40 px-60 text-white grid justify-items-center relative"
             style={{
-                backgroundImage:
-                    "url(../../img/Main/Part3/bg.png), linear-gradient(180deg, #002fc3, #0018f4)",
+                backgroundImage: "linear-gradient(180deg, #002fc3, #0018f4)",
             }}>
+            <img
+                src={bg}
+                className="absolute bottom-0 right-0"
+                alt="background"
+            />
             <p className="text-6xl">ดูเกมเหล่านี้ในขณะเล่นจริง</p>
             <div className="pt-28 pb-16 px-64">
                 <VidPlayer pic={pic01} />
