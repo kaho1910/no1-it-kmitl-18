@@ -21,6 +21,26 @@
     - [x] Footer
     - [ ] choose fonts
 - [ ] PlayStation 5
+    - [ ] Part1 - slide
+        - [x] demo Show.js
+    - [ ] Part2 - static
+    - [ ] Part3 - static youtube
+    - [ ] Part4 - slide controller
+    - [ ] Part5 - slide dualsense
+    - [ ] Part6 - static trigger
+    - [ ] Part7 - static communication
+    - [ ] Part8 - slide
+    - [ ] Part9 - static ssd
+    - [ ] Part10 - slide ssd showcase
+    - [ ] Part11 - static ray-tracing
+    - [ ] Part12 - static spidy
+    - [ ] Part13 - static games
+    - [ ] Part14 - static playstation plus
+    - [ ] Part15 - slide pulse-3d
+    - [ ] Part16 - static tv
+    - [ ] Part17 - slide ps5
+    - [x] Part18 - static more
+    - [x] Part19 - static footer
 - [x] Game
     - [x] content
     - [x] re village bg:filter
@@ -31,6 +51,7 @@
     - [x] VidPlayer
         - [x] functional
         - [x] box-shadow
+        - [ ] button shadow
         - [ ] glitchy bottom right logo
     - [x] VidBtnBlue .active bg-color fix
 - [ ] Entertainment
