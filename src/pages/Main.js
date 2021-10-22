@@ -6,7 +6,7 @@ import Part18 from "../components/Main/Part18";
 import Part19 from "../components/Main/Part19";
 
 function main() {
-    DocTitle("PlayStation 5 | Play Has No Limits | PlayStation");
+    DocTitle("PlayStation®5 | Play Has No Limits | PlayStation");
     return (
         <div className="content">
             {/* <Show /> */}
