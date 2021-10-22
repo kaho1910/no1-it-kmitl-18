@@ -15,8 +15,8 @@ const VidPlayer = (props) => {
                 alt="play"
             />
             <div
-                className="youtube absolute w-1/5 rounded-lg"
-                style={{ padding: "2%", bottom: "4%", right: "4%" }}>
+                className="youtube absolute w-24 p-2.5 rounded-lg"
+                style={{ bottom: "4%", right: "4%" }}>
                 <img src={youtube} alt="youtube" />
             </div>
         </div>
