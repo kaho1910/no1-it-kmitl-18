@@ -19,14 +19,14 @@ function Part3() {
                 className="absolute bottom-0 right-0"
                 alt="background"
             />
-            <p className="text-6xl">ดูเกมเหล่านี้ในขณะเล่นจริง</p>
-            <div className="pt-28 pb-16 px-64">
+            <p className="text-6xl z-10">ดูเกมเหล่านี้ในขณะเล่นจริง</p>
+            <div className="pt-28 pb-16 px-64 z-10">
                 <VidPlayer pic={pic01} />
                 <p className="text-2xl text-left pt-4">
                     สัมผัสประสบการณ์ PlayStation 5
                 </p>
             </div>
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-4 z-10">
                 <div className="mx-3">
                     <VidPlayer pic={pic02} />
                     <p className="text-2xl text-left pt-4">
