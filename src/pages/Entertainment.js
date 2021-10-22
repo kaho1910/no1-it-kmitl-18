@@ -15,7 +15,7 @@ import remote from "../img/img_etm/remote.png";
 import "../pages/Entertainment.css";
 import "animate.css/animate.min.css";
 import "animate.css";
-import BtnBlue from "../components/etc/BtnBlue";
+import BtnBlue from "../components/button/BtnBlue";
 
 function Entertainment() {
     DocTitle(
@@ -95,7 +95,6 @@ function Entertainment() {
                                     เนื้อหาล่าสุดจาก YouTube
                                 </p>
                             </div>
-
                         </div>
                     </div>
                 </div>

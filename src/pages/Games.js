@@ -1,9 +1,9 @@
 import React from "react";
 import "./Games.css";
 import DocTitle from "../components/etc/DocTitle";
-import VidPlayer from "../components/etc/VidPlayer";
-import BtnBlue from "../components/etc/BtnBlue";
-import BtnWhite from "../components/etc/BtnWhite";
+import VidPlayer from "../components/button/VidPlayer";
+import BtnBlue from "../components/button/BtnBlue";
+import BtnWhite from "../components/button/BtnWhite";
 import CardGame from "../components/Games/CardGame";
 import CardGameV2 from "../components/Games/CardGameV2";
 import pic1 from "../img/Games/01.jpg";

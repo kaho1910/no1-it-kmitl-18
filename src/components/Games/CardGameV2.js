@@ -1,5 +1,5 @@
 import React from "react";
-import BtnBlue from "../etc/BtnBlue";
+import BtnBlue from "../button/BtnBlue";
 
 const CardGameV2 = (props) => {
     let btn = <div></div>;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import MainBtnWhite from "../etc/MainBtnWhite";
+import MainBtnWhite from "../button/MainBtnWhite";
 import moreMain from "../../img/Main/moreMain.jpg";
 
 function Part18() {

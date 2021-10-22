@@ -8,7 +8,7 @@ import remote from "../img/Accessories/remote.png";
 import cam from "../img/Accessories/cam.png";
 import next from "../img/Accessories/next-black.svg";
 import VIDACCZ from "../img/Accessories/vidacc.mp4";
-import BtnBlue from "../components/etc/BtnBlue";
+import BtnBlue from "../components/button/BtnBlue";
 
 function Accessories() {
     DocTitle("อุปกรณ์เสริม PS5 | อุปกรณ์เสริม PlayStation รุ่นใหม่ ประเทศไทย");
