@@ -23,8 +23,10 @@
 - [ ] PlayStation 5
     - [ ] Part1 - slide
         - [x] demo Show.js
-    - [ ] Part2 - static
+    - [x] Part2 - static
     - [ ] Part3 - static youtube
+        - [x] content
+        - [ ] background image
     - [ ] Part4 - slide controller
     - [ ] Part5 - slide dualsense
     - [ ] Part6 - static trigger
@@ -51,7 +53,8 @@
     - [x] VidPlayer
         - [x] functional
         - [x] box-shadow
-        - [ ] button shadow
+        - [x] button shadow
+        - [ ] play button size fixed
         - [ ] glitchy bottom right logo
     - [x] VidBtnBlue .active bg-color fix
 - [ ] Entertainment
