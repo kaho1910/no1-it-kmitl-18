@@ -17,7 +17,9 @@ function Footer() {
                             src={language}
                             alt="lang"
                         />
-                        <p className="inline">ประเทศ / เขตภูมิภาค: Thailand</p>
+                        <p className="inline text-base">
+                            ประเทศ / เขตภูมิภาค: Thailand
+                        </p>
                     </div>
                 </div>
                 <div className="h-1/2 grid grid-cols-1">
