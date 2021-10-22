@@ -1,6 +1,6 @@
 import React from "react";
 import DocTitle from "../components/etc/DocTitle";
-import VidPlayer from "../components/button/VidPlayer";
+import VidPlayer from "../components/etc/VidPlayer";
 import VidBtnWhite from "../components/button/VidBtnWhite";
 import VidBtnBlue from "../components/button/VidBtnBlue";
 import ScrollAnimation from "react-animate-on-scroll";

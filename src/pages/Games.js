@@ -1,7 +1,7 @@
 import React from "react";
 import "./Games.css";
 import DocTitle from "../components/etc/DocTitle";
-import VidPlayer from "../components/button/VidPlayer";
+import VidPlayer from "../components/etc/VidPlayer";
 import BtnBlue from "../components/button/BtnBlue";
 import BtnWhite from "../components/button/BtnWhite";
 import CardGame from "../components/Games/CardGame";
