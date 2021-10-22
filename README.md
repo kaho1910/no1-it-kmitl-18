@@ -30,6 +30,8 @@
     - [ ] Part4 - slide controller
     - [ ] Part5 - slide dualsense
     - [ ] Part6 - static trigger
+        - [x] content
+        - [ ] video play/pause button
     - [ ] Part7 - static communication
     - [ ] Part8 - slide
     - [ ] Part9 - static ssd
