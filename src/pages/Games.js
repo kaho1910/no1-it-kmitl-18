@@ -262,7 +262,7 @@ function Games() {
                         เกมอันน่าทึ่ง
                     </h2>
                     <div className="grid grid-cols-2 mt-16 p-4">
-                        <img src={pic14} className="p-2" alt="hogwarts" />
+                        <img src={pic14} className="p-2" alt="fifa21" />
                         <div className="text-left self-start p-8 pt-0">
                             <h2 className="text-4xl mt-4 text-left">
                                 EA SPORTS FIFA 21
