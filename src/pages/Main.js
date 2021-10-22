@@ -12,7 +12,7 @@ function main() {
 
             {/* static 2 */}
 
-            {/* static 3 video */}
+            {/* static 3 youtube */}
 
             {/* slide 4 controller*/}
 
@@ -20,7 +20,7 @@ function main() {
 
             {/* static 6 trigger*/}
 
-            {/* static 7 communicate*/}
+            {/* static 7 communication*/}
 
             {/* slide 8 */}
 
@@ -32,7 +32,7 @@ function main() {
 
             {/* static 12 spidy */}
 
-            {/* static 13 game */}
+            {/* static 13 games */}
 
             {/* static 14 playstation plus */}
 
