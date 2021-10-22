@@ -24,9 +24,9 @@
     - [ ] Part1 - slide
         - [x] demo Show.js
     - [x] Part2 - static
-    - [ ] Part3 - static youtube
+    - [x] Part3 - static youtube
         - [x] content
-        - [ ] background image
+        - [x] background image
     - [ ] Part4 - slide controller
     - [ ] Part5 - slide dualsense
     - [ ] Part6 - static trigger
