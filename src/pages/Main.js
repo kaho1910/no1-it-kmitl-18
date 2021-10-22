@@ -1,6 +1,7 @@
 import React from "react";
 import DocTitle from "../components/etc/DocTitle";
 import Show from "./Show";
+import Part2 from "../components/Main/Part2";
 import Part18 from "../components/Main/Part18";
 import Part19 from "../components/Main/Part19";
 
@@ -11,6 +12,7 @@ function main() {
             {/* <Show /> */}
 
             {/* static 2 */}
+            <Part2 />
 
             {/* static 3 youtube */}
 
