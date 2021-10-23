@@ -4,6 +4,7 @@ import Show from "./Show";
 import Part2 from "../components/Main/Part2";
 import Part3 from "../components/Main/Part3";
 import Part6 from "../components/Main/Part6";
+import Part7 from "../components/Main/Part7";
 import Part18 from "../components/Main/Part18";
 import Part19 from "../components/Main/Part19";
 
@@ -27,6 +28,7 @@ function main() {
             <Part6 />
 
             {/* static 7 communication*/}
+            <Part7 />
 
             {/* slide 8 */}
 
