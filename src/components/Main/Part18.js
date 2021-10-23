@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MainBtnWhite from "../button/MainBtnWhite";
-import moreMain from "../../img/Main/moreMain.jpg";
+import pic01 from "../../img/Main/Part18.jpg";
 
 function Part18() {
     return (
         <div className="w-full relative">
             <img
-                src={moreMain}
+                src={pic01}
                 style={{ height: "60rem" }}
                 className="object-cover w-full"
                 alt="footerMain"

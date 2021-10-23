@@ -1,11 +1,11 @@
 import React from "react";
-import logoMarvel from "../../img/Main/logoMarvel.png";
+import pic01 from "../../img/Main/Part19.png";
 
 function Part19() {
     return (
         <div className="w-full text-left py-16 px-60">
             <div className="w-2/12">
-                <img src={logoMarvel} width="75%" alt="marvel logo" />
+                <img src={pic01} width="75%" alt="marvel logo" />
             </div>
             <div className="my-8">
                 <p className="text-base leading-7">© 2021 Marvel</p>
