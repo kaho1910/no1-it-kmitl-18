@@ -7,6 +7,7 @@ import Part6 from "../components/Main/Part6";
 import Part7 from "../components/Main/Part7";
 import Part9 from "../components/Main/Part9";
 import Part12 from "../components/Main/Part12";
+import Part14 from "../components/Main/Part14";
 import Part18 from "../components/Main/Part18";
 import Part19 from "../components/Main/Part19";
 
@@ -47,6 +48,7 @@ function main() {
             {/* static 13 games */}
 
             {/* static 14 playstation plus */}
+            <Part14 />
 
             {/* slide 15 pulse-3d */}
 
