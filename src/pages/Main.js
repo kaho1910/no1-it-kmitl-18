@@ -6,6 +6,7 @@ import Part3 from "../components/Main/Part3";
 import Part6 from "../components/Main/Part6";
 import Part7 from "../components/Main/Part7";
 import Part9 from "../components/Main/Part9";
+import Part12 from "../components/Main/Part12";
 import Part18 from "../components/Main/Part18";
 import Part19 from "../components/Main/Part19";
 
@@ -41,6 +42,7 @@ function main() {
             {/* static 11 ray-tracing */}
 
             {/* static 12 spidy */}
+            <Part12 />
 
             {/* static 13 games */}
 
