@@ -154,46 +154,48 @@ function Accessories() {
             <div
                 className="grid grid-cols-1 mt-16 text-left px-96 py-4"
                 style={{ backgroundColor: "#eee" }}>
-                <p className="text-md mt-16 mb-6">
-                    <sup>1</sup> เมื่อเปรียบเทียบกับคอนโทรลเลอร์ไร้สาย
-                    DUALSHOCK®4
-                </p>
-                <p className="text-md mb-6">
-                    <sup>2</sup> สามารถใช้งานได้เมื่อเกมรองรับฟีเจอร์
-                </p>
-                <p className="text-md mb-6">
-                    <sup>3</sup> ต้องมีอินเทอร์เน็ตและบัญชีสำหรับ
-                    PlayStation™Network
-                </p>
-                <p className="text-md mb-6">
-                    <sup>4</sup> จำเป็นต้องมีอินเทอร์เน็ตและบัญชีสำหรับ
-                    PlayStation™ Network
-                    บริการสตรีมมิ่งอาจต้องมีการสมัครสมาชิกแบบมีค่าใช้จ่ายและอาจใช้บริการไม่ได้
-                    ในบางประเทศ
-                </p>
-                <p className="text-md mb-6">
-                    <sup>5</sup>การเล่นเกม PS VR บนคอนโซล PS5 ™ต้องใช้แว่น PS
-                    VR, PlayStation®Camera สำหรับ PS4™ (รุ่น CUH-ZEY1 หรือ
-                    CUH-ZEY2) และอะแดปเตอร์ PlayStation®Camera
-                    (ไม่จำเป็นต้องซื้อ ไปที่ playstation.com/camera-adaptor
-                    สำหรับรายละเอียด) เพื่อประสบการณ์ PS VR ที่ดีที่สุดบน PS5
-                    เราแนะนำให้ใช้คอนโทรลเลอร์ไร้สาย DUALSHOCK®4
-                    เกมที่เลือกอาจต้องใช้คอนโทรลเลอร์ควบคุมการเคลื่อนไหว
-                    PlayStation®Move หรือเข้ากันได้กับคอนโทรลเลอร์
-                    PlayStation®VR Aim กล้อง HD รุ่นใหม่สำหรับ PS5 เข้าไม่ได้กับ
-                    PS VR แว่น PS VR, กล้อง PS, คอนโทรลเลอร์ไร้สาย DUALSHOCK 4,
-                    คอนโทรลเลอร์ PS Move และคอนโทรลเลอร์ PS VR Aim
-                    ทั้งหมดจำหน่ายแยกจาก PS5
-                </p>
-                <p className="text-md mb-16">
-                    “PlayStation”, “เครื่องหมาย PlayStation Family", “PS4”,
-                    “โลโก้ PS5”, “PS5” และ “DualSense”
-                    เป็นเครื่องหมายการค้าจดทะเบียนหรือเครื่องหมายการค้าของ Sony
-                    Interactive Entertainment Inc. “SONY”
-                    เป็นเครื่องหมายการค้าจดทะเบียนของ Sony Corporation USB
-                    Type-C® เป็นเครื่องหมายการค้าที่จดทะเบียนของ USB
-                    Implementers Forum
-                </p>
+                <div className="px-12">
+                    <p className="text-md mt-16 mb-6">
+                        <sup>1</sup> เมื่อเปรียบเทียบกับคอนโทรลเลอร์ไร้สาย
+                        DUALSHOCK®4
+                    </p>
+                    <p className="text-md mb-6">
+                        <sup>2</sup> สามารถใช้งานได้เมื่อเกมรองรับฟีเจอร์
+                    </p>
+                    <p className="text-md mb-6">
+                        <sup>3</sup> ต้องมีอินเทอร์เน็ตและบัญชีสำหรับ
+                        PlayStation™Network
+                    </p>
+                    <p className="text-md mb-6">
+                        <sup>4</sup> จำเป็นต้องมีอินเทอร์เน็ตและบัญชีสำหรับ
+                        PlayStation™ Network
+                        บริการสตรีมมิ่งอาจต้องมีการสมัครสมาชิกแบบมีค่าใช้จ่ายและอาจใช้บริการไม่ได้
+                        ในบางประเทศ
+                    </p>
+                    <p className="text-md mb-6">
+                        <sup>5</sup>การเล่นเกม PS VR บนคอนโซล PS5 ™ต้องใช้แว่น
+                        PS VR, PlayStation®Camera สำหรับ PS4™ (รุ่น CUH-ZEY1
+                        หรือ CUH-ZEY2) และอะแดปเตอร์ PlayStation®Camera
+                        (ไม่จำเป็นต้องซื้อ ไปที่ playstation.com/camera-adaptor
+                        สำหรับรายละเอียด) เพื่อประสบการณ์ PS VR ที่ดีที่สุดบน
+                        PS5 เราแนะนำให้ใช้คอนโทรลเลอร์ไร้สาย DUALSHOCK®4
+                        เกมที่เลือกอาจต้องใช้คอนโทรลเลอร์ควบคุมการเคลื่อนไหว
+                        PlayStation®Move หรือเข้ากันได้กับคอนโทรลเลอร์
+                        PlayStation®VR Aim กล้อง HD รุ่นใหม่สำหรับ PS5
+                        เข้าไม่ได้กับ PS VR แว่น PS VR, กล้อง PS,
+                        คอนโทรลเลอร์ไร้สาย DUALSHOCK 4, คอนโทรลเลอร์ PS Move
+                        และคอนโทรลเลอร์ PS VR Aim ทั้งหมดจำหน่ายแยกจาก PS5
+                    </p>
+                    <p className="text-md mb-12">
+                        “PlayStation”, “เครื่องหมาย PlayStation Family", “PS4”,
+                        “โลโก้ PS5”, “PS5” และ “DualSense”
+                        เป็นเครื่องหมายการค้าจดทะเบียนหรือเครื่องหมายการค้าของ
+                        Sony Interactive Entertainment Inc. “SONY”
+                        เป็นเครื่องหมายการค้าจดทะเบียนของ Sony Corporation USB
+                        Type-C® เป็นเครื่องหมายการค้าที่จดทะเบียนของ USB
+                        Implementers Forum
+                    </p>
+                </div>
             </div>
         </div>
     );
