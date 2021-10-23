@@ -29,19 +29,19 @@
         - [x] background image
     - [ ] Part4 - slide controller
     - [ ] Part5 - slide dualsense
-    - [ ] Part6 - static trigger
+    - [x] Part6 - static trigger
         - [x] content
         - [ ] video play/pause button
-    - [ ] Part7 - static communication
+    - [x] Part7 - static communication
     - [ ] Part8 - slide
-    - [ ] Part9 - static ssd
+    - [x] Part9 - static ssd
     - [ ] Part10 - slide ssd showcase
     - [ ] Part11 - static ray-tracing
-    - [ ] Part12 - static spidy
+    - [x] Part12 - static spidy
     - [ ] Part13 - static games
-    - [ ] Part14 - static playstation plus
+    - [x] Part14 - static playstation plus
     - [ ] Part15 - slide pulse-3d
-    - [ ] Part16 - static tv
+    - [x] Part16 - static tv
     - [ ] Part17 - slide ps5
     - [x] Part18 - static more
     - [x] Part19 - static footer
