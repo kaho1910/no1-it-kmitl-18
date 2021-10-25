@@ -10,6 +10,8 @@
 6. `npm install --save styled-components`
 7. `npm install react-animate-on-scroll --save`
 8. `npm install --save animate.css`
+9. `npm install --save react-scrollmagic`
+10. `npm install gsap react-gsap`
 
 ---
 ### Need to do
