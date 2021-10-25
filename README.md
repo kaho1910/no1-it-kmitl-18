@@ -41,6 +41,7 @@
     - [ ] Part13 - static games
     - [x] Part14 - static playstation plus
     - [ ] Part15 - slide pulse-3d
+        - [x] add image
     - [x] Part16 - static tv
     - [ ] Part17 - slide ps5
     - [x] Part18 - static more
