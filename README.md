@@ -31,6 +31,7 @@
         - [x] background image
     - [ ] Part4 - slide controller
     - [ ] Part5 - slide dualsense
+        - [x] add image
     - [x] Part6 - static trigger
         - [x] content
         - [ ] video play/pause button
@@ -43,6 +44,7 @@
     - [ ] Part13 - static games
     - [x] Part14 - static playstation plus
     - [ ] Part15 - slide pulse-3d
+        - [x] add image
     - [x] Part16 - static tv
     - [ ] Part17 - slide ps5
     - [x] Part18 - static more
