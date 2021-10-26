@@ -10,6 +10,8 @@
 6. `npm install --save styled-components`
 7. `npm install react-animate-on-scroll --save`
 8. `npm install --save animate.css`
+9. `npm install --save react-scrollmagic`
+10. `npm install gsap react-gsap`
 
 ---
 ### Need to do
@@ -21,7 +23,7 @@
     - [x] Footer
     - [ ] choose fonts
 - [ ] PlayStation 5
-    - [ ] Part1 - slide
+    - [x] Part1 - slide
         - [x] demo Show.js
     - [x] Part2 - static
     - [x] Part3 - static youtube
