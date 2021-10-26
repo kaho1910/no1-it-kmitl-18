@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { Controller, Scene } from "react-scrollmagic";
 import { Tween, Timeline, ScrollTrigger } from "react-gsap";
-import { gsap } from "gsap";
 
 import Sequence from "../../img/Main/Part1/Sequence";
 import pic01 from "../../img/Main/Part1/01.png";
