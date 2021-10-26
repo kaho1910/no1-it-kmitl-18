@@ -16,6 +16,7 @@ import "../pages/Entertainment.css";
 import "animate.css/animate.min.css";
 import "animate.css";
 import BtnBlue from "../components/button/BtnBlue";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function Entertainment() {
     DocTitle(
@@ -151,7 +152,12 @@ function Entertainment() {
                         </div>
                     </div>
                     <div className="relative">
-                        <img src={act_etm} height="95%" alt="mutiplayer" />
+                    <ScrollAnimation
+                    animateIn="animate__fadeIn"
+                    duration="0.4"
+                    animateOnce="true"
+                    offset="450"><img src={act_etm} height="95%" alt="mutiplayer" />
+                     </ScrollAnimation>
                         <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                             <div className="grid justify-items-center">
                                 <div className="p-40 grid justify-items-start">
