@@ -24,7 +24,7 @@
     - [x] Footer
     - [ ] choose fonts
 - [ ] PlayStation 5
-    - [ ] Part1 - slide
+    - [x] Part1 - slide
         - [x] demo Show.js
     - [x] Part2 - static
     - [x] Part3 - static youtube
