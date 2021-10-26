@@ -4,11 +4,13 @@ import DocTitle from "../components/etc/DocTitle";
 import Part1 from "../components/Main/Part1";
 import Part2 from "../components/Main/Part2";
 import Part3 from "../components/Main/Part3";
+import Part5 from "../components/Main/Part5";
 import Part6 from "../components/Main/Part6";
 import Part7 from "../components/Main/Part7";
 import Part9 from "../components/Main/Part9";
 import Part12 from "../components/Main/Part12";
 import Part14 from "../components/Main/Part14";
+import Part15 from "../components/Main/Part15";
 import Part16 from "../components/Main/Part16";
 import Part18 from "../components/Main/Part18";
 import Part19 from "../components/Main/Part19";
@@ -29,6 +31,7 @@ function main() {
             {/* slide 4 controller*/}
 
             {/* slide 5 dual sense*/}
+            <Part5 />
 
             {/* static 6 trigger*/}
             <Part6 />
@@ -54,6 +57,7 @@ function main() {
             <Part14 />
 
             {/* slide 15 pulse-3d */}
+            <Part15 />
 
             {/* static 16 tv */}
             <Part16 />
