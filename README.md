@@ -12,6 +12,7 @@
 8. `npm install --save animate.css`
 9. `npm install --save react-scrollmagic`
 10. `npm install gsap react-gsap`
+11. `npm install ./gsap-bonus.tgz`
 
 ---
 ### Need to do
