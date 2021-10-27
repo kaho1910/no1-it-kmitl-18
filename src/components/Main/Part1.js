@@ -13,13 +13,13 @@ const Part1 = () => {
             <Controller>
                 <Scene duration="300%" triggerHook="onLeave" pin>
                     {(progress) => (
-                        <div style={{ height: "100vh" }}>
+                        <div className="z-20" style={{ height: "100vh" }}>
                             <Sequence ref={ref} progress={progress}></Sequence>
                         </div>
                     )}
                 </Scene>
             </Controller>
-            <div className="absolute top-0 left-0 w-full h-full">
+            <div className="absolute top-0 left-0 w-full h-full z-30">
                 <ScrollTrigger
                     start="210px center"
                     end="1300px center"
@@ -43,7 +43,8 @@ const Part1 = () => {
                 <ScrollTrigger
                     start="1200px center"
                     end="2200px center"
-                    scrub={true}>
+                    scrub={true}
+                    markers>
                     <Timeline
                         target={
                             <div

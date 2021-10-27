@@ -1,9 +1,11 @@
 import React from "react";
 import DocTitle from "../components/etc/DocTitle";
+import { Controller, Scene } from "react-scrollmagic";
 // import Show from "./Show";
 import Part1 from "../components/Main/Part1";
 import Part2 from "../components/Main/Part2";
 import Part3 from "../components/Main/Part3";
+import Part4 from "../components/Main/Part4";
 import Part5 from "../components/Main/Part5";
 import Part6 from "../components/Main/Part6";
 import Part7 from "../components/Main/Part7";
@@ -25,13 +27,20 @@ function main() {
             {/* static 2 */}
             <Part2 />
 
-            {/* static 3 youtube */}
-            <Part3 />
+            <div className="overflow-hidden">
+                <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
+                    {/* static 3 youtube */}
+                    <Scene pin>
+                        <Part3 />
+                    </Scene>
 
-            {/* slide 4 controller*/}
+                    {/* slide 4 controller*/}
+                    <Part4 />
 
-            {/* slide 5 dual sense*/}
-            <Part5 />
+                    {/* slide 5 dual sense*/}
+                    <Part5 />
+                </Controller>
+            </div>
 
             {/* static 6 trigger*/}
             <Part6 />

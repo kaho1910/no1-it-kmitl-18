@@ -10,7 +10,7 @@ import pic05 from "../../img/Main/Part3/05.jpg";
 function Part3() {
     return (
         <div
-            className="py-40 px-60 text-white grid justify-items-center relative"
+            className="py-40 px-60 text-white grid justify-items-center relative z-20"
             style={{
                 backgroundImage: "linear-gradient(180deg, #002fc3, #0018f4)",
             }}>
