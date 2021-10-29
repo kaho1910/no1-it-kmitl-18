@@ -43,8 +43,7 @@ const Part1 = () => {
                 <ScrollTrigger
                     start="1200px center"
                     end="2200px center"
-                    scrub={true}
-                    markers>
+                    scrub={true}>
                     <Timeline
                         target={
                             <div

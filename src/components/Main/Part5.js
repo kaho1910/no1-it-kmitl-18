@@ -9,15 +9,15 @@ const Part1 = () => {
     const ref = useRef();
     return (
         <div className="">
-            {/* <Controller> */}
-            <Scene duration="300%" triggerHook="onLeave" pin>
-                {(progress) => (
-                    <div style={{ height: "100vh" }}>
-                        <Sequence ref={ref} progress={progress}></Sequence>
-                    </div>
-                )}
-            </Scene>
-            {/* </Controller> */}
+            <Controller>
+                <Scene duration="300%" triggerHook="onLeave" pin>
+                    {(progress) => (
+                        <div style={{ height: "100vh" }}>
+                            <Sequence ref={ref} progress={progress}></Sequence>
+                        </div>
+                    )}
+                </Scene>
+            </Controller>
             <div className="absolute top-0 left-1/4 w-1/2 h-1/2">
                 {/* <ScrollTrigger
                     start="210px center"

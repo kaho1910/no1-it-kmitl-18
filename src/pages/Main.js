@@ -27,20 +27,15 @@ function main() {
             {/* static 2 */}
             <Part2 />
 
-            <div className="overflow-hidden">
-                <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
-                    {/* static 3 youtube */}
-                    <Scene pin>
-                        <Part3 />
-                    </Scene>
+            {/* static 3 youtube */}
 
-                    {/* slide 4 controller*/}
-                    <Part4 />
+            <Part3 />
 
-                    {/* slide 5 dual sense*/}
-                    <Part5 />
-                </Controller>
-            </div>
+            {/* slide 4 controller*/}
+            <Part4 />
+
+            {/* slide 5 dual sense*/}
+            <Part5 />
 
             {/* static 6 trigger*/}
             <Part6 />
