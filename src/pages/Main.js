@@ -11,6 +11,7 @@ import Part6 from "../components/Main/Part6";
 import Part7 from "../components/Main/Part7";
 import Part8 from "../components/Main/Part8";
 import Part9 from "../components/Main/Part9";
+import Part10 from "../components/Main/Part10";
 import Part12 from "../components/Main/Part12";
 import Part14 from "../components/Main/Part14";
 import Part15 from "../components/Main/Part15";
@@ -51,6 +52,7 @@ function main() {
             <Part9 />
 
             {/* slide 10 ssd showcase */}
+            <Part10 />
 
             {/* static 11 ray-tracing */}
 
