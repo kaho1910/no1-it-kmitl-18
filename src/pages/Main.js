@@ -9,6 +9,7 @@ import Part4 from "../components/Main/Part4";
 import Part5 from "../components/Main/Part5";
 import Part6 from "../components/Main/Part6";
 import Part7 from "../components/Main/Part7";
+import Part8 from "../components/Main/Part8";
 import Part9 from "../components/Main/Part9";
 import Part12 from "../components/Main/Part12";
 import Part14 from "../components/Main/Part14";
@@ -44,6 +45,7 @@ function main() {
             <Part7 />
 
             {/* slide 8 */}
+            <Part8 />
 
             {/* static 9 ssd */}
             <Part9 />
