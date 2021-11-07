@@ -39,7 +39,7 @@
     - [x] Part7 - static communication
     - [x] Part8 - slide
     - [x] Part9 - static ssd
-    - [ ] Part10 - slide ssd showcase
+    - [x] Part10 - slide ssd showcase
     - [ ] Part11 - static ray-tracing
     - [x] Part12 - static spidy
     - [ ] Part13 - static games
