@@ -30,7 +30,8 @@
         - [x] content
         - [x] background image
     - [ ] Part4 - slide controller
-    - [ ] Part5 - slide dualsense
+        - [x] functional
+    - [x] Part5 - slide dualsense
         - [x] add image
     - [x] Part6 - static trigger
         - [x] content
