@@ -10,12 +10,12 @@ function Part4() {
     return (
         <div
             className="relative"
-            style={{ backgroundColor: "#d8dce8", height: "250vh" }}>
+            style={{ backgroundColor: "#d8dce8", height: "350vh" }}>
             <Controller>
                 <Scene duration="500%" triggerHook="onLeave" pin>
                     <ScrollTrigger
                         start="5500px center"
-                        end="7200px center"
+                        end="8500px center"
                         scrub={true}>
                         <Timeline
                             target={
@@ -83,7 +83,7 @@ function Part4() {
                             </ScrollTrigger>
                             <ScrollTrigger
                                 start="7600px center"
-                                end="8300px center"
+                                end="9900px center"
                                 scrub={true}>
                                 <Timeline
                                     target={
@@ -105,8 +105,8 @@ function Part4() {
                                         <Tween to={{ opacity: 0 }} />
                                     </ScrollTrigger>
                                     <ScrollTrigger
-                                        start="7300px center"
-                                        end="7800px center"
+                                        start="8300px center"
+                                        end="8900px center"
                                         scrub={true}>
                                         <Tween
                                             from={{ opacity: 0 }}
@@ -127,11 +127,26 @@ function Part4() {
                                                     zIndex: "20",
                                                 }}
                                             />
+                                            <ScrollTrigger
+                                                start="10000px center"
+                                                scrub={true}>
+                                                <Tween
+                                                    to={{ display: "none" }}
+                                                />
+                                            </ScrollTrigger>
                                         </Timeline>
+                                    </ScrollTrigger>
+                                    <ScrollTrigger
+                                        start="10000px center"
+                                        scrub={true}>
+                                        <Tween to={{ display: "none" }} />
                                     </ScrollTrigger>
                                 </Timeline>
                             </ScrollTrigger>
                             {/* here */}
+                            <ScrollTrigger start="10000px center" scrub={true}>
+                                <Tween to={{ display: "none" }} />
+                            </ScrollTrigger>
                             {/* <ScrollTrigger
                                 start="8900px center"
                                 end="8900px center"
@@ -142,7 +157,7 @@ function Part4() {
                     </ScrollTrigger>
                 </Scene>
             </Controller>
-            <div
+            {/* <div
                 className="absolute w-full justify-center"
                 style={{ height: "100vh", bottom: "-100vh" }}>
                 <video
@@ -152,7 +167,7 @@ function Part4() {
                     autoPlay
                     loop
                     muted></video>
-            </div>
+            </div> */}
         </div>
     );
 }
