@@ -42,8 +42,7 @@ const Part1 = () => {
                 <ScrollTrigger
                     start="12200px center"
                     end="13500px center"
-                    scrub={true}
-                    markers>
+                    scrub={true}>
                     <Timeline
                         target={
                             <div
@@ -65,8 +64,7 @@ const Part1 = () => {
                 <ScrollTrigger
                     start="12200px center"
                     end="13500px center"
-                    scrub={true}
-                    markers>
+                    scrub={true}>
                     <Timeline
                         target={
                             <div className="fixed w-full flex justify-center">
