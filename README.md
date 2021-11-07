@@ -37,7 +37,7 @@
         - [x] content
         - [ ] video play/pause button
     - [x] Part7 - static communication
-    - [ ] Part8 - slide
+    - [x] Part8 - slide
     - [x] Part9 - static ssd
     - [ ] Part10 - slide ssd showcase
     - [ ] Part11 - static ray-tracing
