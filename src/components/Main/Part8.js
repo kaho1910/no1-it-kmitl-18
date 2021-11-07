@@ -16,8 +16,7 @@ function Part8() {
                 <ScrollTrigger
                     start="19500px center"
                     end="20500px center"
-                    scrub={true}
-                    markers>
+                    scrub={true}>
                     <Timeline
                         target={
                             <div className="fixed w-full h-full flex justify-content items-center">
@@ -33,8 +32,7 @@ function Part8() {
                 <ScrollTrigger
                     start="20300px center"
                     end="22300px center"
-                    scrub={true}
-                    markers>
+                    scrub={true}>
                     <Timeline
                         target={
                             <div className="fixed w-full h-full flex justify-content items-center">
@@ -54,10 +52,9 @@ function Part8() {
                     </Timeline>
                 </ScrollTrigger>
                 <ScrollTrigger
-                    start="18200px center"
-                    end="21500px center"
-                    scrub={true}
-                    markers>
+                    start="19000px center"
+                    end="22500px center"
+                    scrub={true}>
                     <Timeline
                         target={
                             <div className="fixed w-full h-full flex justify-center items-center">
@@ -74,6 +71,9 @@ function Part8() {
                             from={{ scale: 0.2, opacity: 0 }}
                             to={{ scale: 1, opacity: 1 }}
                         />
+                        <Tween to={{ opacity: 1 }} />
+                        <Tween to={{ opacity: 1 }} />
+                        <Tween to={{ opacity: 0 }} />
                     </Timeline>
                 </ScrollTrigger>
             </div>
