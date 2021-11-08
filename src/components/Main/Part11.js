@@ -141,8 +141,7 @@ function Part11() {
                     <ScrollTrigger
                         start="3100px bottom"
                         end="+=250px bottom"
-                        scrub={true}
-                        markers>
+                        scrub={true}>
                         <Timeline
                             target={
                                 <div className="text-left p-44 pr-64">
@@ -174,8 +173,7 @@ function Part11() {
                     <ScrollTrigger
                         start="3200px bottom"
                         end="+=250px bottom"
-                        scrub={true}
-                        markers>
+                        scrub={true}>
                         <Timeline
                             target={
                                 <div className="text-left pt-12 pr-36 pl-12">
