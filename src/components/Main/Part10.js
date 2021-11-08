@@ -15,7 +15,7 @@ function Part10() {
             <div className="absolute top-0 left-0 w-full h-full">
                 <ScrollTrigger
                     start="23290px center"
-                    end="27300px center"
+                    end="28300px center"
                     scrub={true}>
                     <Timeline
                         target={
@@ -100,7 +100,7 @@ function Part10() {
                 </ScrollTrigger>
                 <ScrollTrigger
                     start="24800px center"
-                    end="26400px center"
+                    end="29400px center"
                     scrub={true}>
                     <Timeline
                         target={
