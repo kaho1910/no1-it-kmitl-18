@@ -14,6 +14,7 @@ import Part9 from "../components/Main/Part9";
 import Part10 from "../components/Main/Part10";
 import Part11 from "../components/Main/Part11";
 import Part12 from "../components/Main/Part12";
+import Part13 from "../components/Main/Part13";
 import Part14 from "../components/Main/Part14";
 import Part15 from "../components/Main/Part15";
 import Part16 from "../components/Main/Part16";
@@ -31,7 +32,6 @@ function main() {
             <Part2 />
 
             {/* static 3 youtube */}
-
             <Part3 />
 
             {/* slide 4 controller*/}
@@ -62,6 +62,7 @@ function main() {
             <Part12 />
 
             {/* static 13 games */}
+            <Part13 />
 
             {/* static 14 playstation plus */}
             <Part14 />
