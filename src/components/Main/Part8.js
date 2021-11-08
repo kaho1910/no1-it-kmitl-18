@@ -53,7 +53,7 @@ function Part8() {
                 </ScrollTrigger>
                 <ScrollTrigger
                     start="19000px center"
-                    end="22500px center"
+                    end="25500px center"
                     scrub={true}>
                     <Timeline
                         target={
