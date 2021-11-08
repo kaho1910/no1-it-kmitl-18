@@ -43,6 +43,7 @@
     - [x] Part11 - static ray-tracing
     - [x] Part12 - static spidy
     - [ ] Part13 - static games
+        - [x] upload image
     - [x] Part14 - static playstation plus
     - [ ] Part15 - slide pulse-3d
         - [x] add image
