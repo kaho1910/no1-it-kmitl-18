@@ -19,16 +19,13 @@ function Part8() {
                     scrub={true}>
                     <Timeline
                         target={
-                            <div className="fixed w-full h-full flex justify-content items-center">
+                            <div className="fixed w-full h-full flex justify-content items-center z-20">
                                 <h2 className="text-5xl text-center w-full">
                                     สัมผัสประสบการณ์พลังที่แท้จริงของการเล่นเกม
                                 </h2>
                             </div>
                         }>
-                        <Tween
-                            from={{ opacity: 0 }}
-                            to={{ opacity: 1, zIndex: "50" }}
-                        />
+                        <Tween from={{ opacity: 0 }} to={{ opacity: 1 }} />
                         <Tween to={{ opacity: 0, y: "-=50px" }} />
                     </Timeline>
                 </ScrollTrigger>
@@ -38,7 +35,7 @@ function Part8() {
                     scrub={true}>
                     <Timeline
                         target={
-                            <div className="fixed w-full h-full flex justify-content items-center">
+                            <div className="fixed w-full h-full flex justify-content items-center z-20">
                                 <h2 className="text-5xl text-center w-full px-96">
                                     ควบคุมพลังของ CPU GPU และ SSD
                                     ที่กำหนดเองได้พร้อม Intregrated I/O
@@ -49,7 +46,7 @@ function Part8() {
                         }>
                         <Tween
                             from={{ opacity: 0, y: "+=50px" }}
-                            to={{ opacity: 1, y: "-=50px", zIndex: "50" }}
+                            to={{ opacity: 1, y: "-=50px" }}
                         />
                         <Tween to={{ opacity: 0 }} />
                     </Timeline>
