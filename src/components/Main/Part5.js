@@ -35,8 +35,11 @@ const Part1 = () => {
                             </div>
                         }
                         paused>
-                        <Tween from={{ opacity: 0 }} to={{ opacity: 1 }} />
-                        <Tween to={{ opacity: 0, scale: 0.15 }} />
+                        <Tween
+                            from={{ zIndex: "-1", opacity: 0 }}
+                            to={{ zIndex: "1", opacity: 1 }}
+                        />
+                        <Tween to={{ zIndex: "-1", opacity: 0, scale: 0.15 }} />
                     </Timeline>
                 </ScrollTrigger>
                 <ScrollTrigger
@@ -55,10 +58,10 @@ const Part1 = () => {
                         }
                         paused>
                         <Tween
-                            from={{ opacity: 0 }}
-                            to={{ opacity: 1, y: "-=70px" }}
+                            from={{ zIndex: "-1", opacity: 0 }}
+                            to={{ zIndex: "1", opacity: 1, y: "-=70px" }}
                         />
-                        <Tween to={{ opacity: 0 }} />
+                        <Tween to={{ zIndex: "-1", opacity: 0 }} />
                     </Timeline>
                 </ScrollTrigger>
                 <ScrollTrigger
@@ -77,8 +80,11 @@ const Part1 = () => {
                             </div>
                         }
                         paused>
-                        <Tween from={{ opacity: 0 }} to={{ opacity: 1 }} />
-                        <Tween to={{ opacity: 0 }} />
+                        <Tween
+                            from={{ zIndex: "-1", opacity: 0 }}
+                            to={{ zIndex: "1", opacity: 1 }}
+                        />
+                        <Tween to={{ zIndex: "-1", opacity: 0 }} />
                     </Timeline>
                 </ScrollTrigger>
             </div>

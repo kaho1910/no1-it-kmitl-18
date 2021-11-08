@@ -12,7 +12,9 @@ function Part10() {
                     <div></div>
                 </Scene>
             </Controller>
-            <div className="absolute top-0 left-0 w-full h-full">
+            <div
+                className="absolute top-0 left-0 w-full h-full"
+                style={{ zIndex: "-1" }}>
                 <ScrollTrigger
                     start="23290px center"
                     end="28300px center"
