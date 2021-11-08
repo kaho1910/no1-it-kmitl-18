@@ -15,7 +15,9 @@ function Part6() {
                         <h2 className="text-5xl text-left">
                             ทริกเกอร์แบบปรับเปลี่ยนได้<sup>1</sup>
                         </h2>
-                        <p className="text-2xl text-left mt-10">
+                        <p
+                            className="text-2xl text-left mt-10"
+                            style={{ color: "#1f1f1f" }}>
                             แรงต้านทานแบบไดนามิกจะเลียนแบบแรงตึงของการโต้ตอบกับอุปกรณ์และสิ่งของในเกม
                             PS5 ที่เลือก
                         </p>
@@ -30,7 +32,9 @@ function Part6() {
                         <h2 className="text-5xl text-left">
                             การตอบสนองการสัมผัส<sup>1</sup>
                         </h2>
-                        <p className="text-2xl text-left mt-10 mb-8">
+                        <p
+                            className="text-2xl text-left mt-10 mb-8"
+                            style={{ color: "#1f1f1f" }}>
                             การสั่นสะเทือนที่ตอบสนองต่อตัวเลือกในเกมของคุณและจำลองปัจจัยสิ่งแวดล้อมในเกม
                             PS5 ที่เลือก
                         </p>

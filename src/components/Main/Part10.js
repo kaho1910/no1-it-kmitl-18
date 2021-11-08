@@ -79,7 +79,9 @@ function Part10() {
                                         <h2 className="text-5xl">
                                             วาร์ปไปมาระหว่างมิติในชั่วพริบตา
                                         </h2>
-                                        <p className="text-xl mt-12">
+                                        <p
+                                            className="text-xl mt-12"
+                                            style={{ color: "#1f1f1f" }}>
                                             SSD
                                             ความเร็วสูงพิเศษจะช่วยเพิ่มระยะเวลาการเล่นเกมให้ถึงขีดสุด
                                             ด้วยการโหลดเกมที่รวดเร็วแทบจะพริบตาสำหรับเกมที่ติดตั้งใน
@@ -108,7 +110,9 @@ function Part10() {
                                         <h2 className="text-5xl">
                                             พบกับการปลดปล่อยพลังการออกแบบเกม
                                         </h2>
-                                        <p className="text-xl mt-12">
+                                        <p
+                                            className="text-xl mt-12"
+                                            style={{ color: "#1f1f1f" }}>
                                             Intregrated I/O
                                             เฉพาะสำหรับระบบคอนโซล PS5
                                             ให้ผู้พัฒนาเกมดึงข้อมูลจาก SSD
