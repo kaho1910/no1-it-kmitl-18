@@ -15,7 +15,7 @@
 
 ---
 ### Need to do
-- [ ] NavBar
+- [x] NavBar
     - [x] functional
     - [x] router - title
         - [x] name
