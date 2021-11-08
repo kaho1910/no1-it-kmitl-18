@@ -25,7 +25,10 @@ function Part8() {
                                 </h2>
                             </div>
                         }>
-                        <Tween from={{ opacity: 0 }} to={{ opacity: 1 }} />
+                        <Tween
+                            from={{ opacity: 0 }}
+                            to={{ opacity: 1, zIndex: "50" }}
+                        />
                         <Tween to={{ opacity: 0, y: "-=50px" }} />
                     </Timeline>
                 </ScrollTrigger>
@@ -46,7 +49,7 @@ function Part8() {
                         }>
                         <Tween
                             from={{ opacity: 0 }}
-                            to={{ opacity: 1, y: "-=50px" }}
+                            to={{ opacity: 1, y: "-=50px", zIndex: "50" }}
                         />
                         <Tween to={{ opacity: 0 }} />
                     </Timeline>
