@@ -48,7 +48,7 @@ function Part8() {
                             </div>
                         }>
                         <Tween
-                            from={{ opacity: 0 }}
+                            from={{ opacity: 0, y: "+=50px" }}
                             to={{ opacity: 1, y: "-=50px", zIndex: "50" }}
                         />
                         <Tween to={{ opacity: 0 }} />
