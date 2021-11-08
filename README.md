@@ -40,7 +40,7 @@
     - [x] Part8 - slide
     - [x] Part9 - static ssd
     - [x] Part10 - slide ssd showcase
-    - [ ] Part11 - static ray-tracing
+    - [x] Part11 - static ray-tracing
     - [x] Part12 - static spidy
     - [ ] Part13 - static games
     - [x] Part14 - static playstation plus
