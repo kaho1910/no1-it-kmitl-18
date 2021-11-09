@@ -45,7 +45,7 @@
     - [ ] Part13 - static games
         - [x] upload image
     - [x] Part14 - static playstation plus
-    - [ ] Part15 - slide pulse-3d
+    - [x] Part15 - slide pulse-3d
         - [x] add image
     - [x] Part16 - static tv
     - [ ] Part17 - slide ps5
@@ -67,3 +67,4 @@
 - [ ] Entertainment
     - [x] most of the content
     - [ ] animation
+    - [ ] remove Remote Btn
