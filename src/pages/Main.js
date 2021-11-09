@@ -16,6 +16,7 @@ import Part11 from "../components/Main/Part11";
 import Part12 from "../components/Main/Part12";
 import Part13 from "../components/Main/Part13";
 import Part14 from "../components/Main/Part14";
+import Pre15 from "../components/Main/Pre15";
 import Part15 from "../components/Main/Part15";
 import Part16 from "../components/Main/Part16";
 import Part18 from "../components/Main/Part18";
@@ -66,6 +67,9 @@ function main() {
 
             {/* static 14 playstation plus */}
             <Part14 />
+
+            {/* slide pre15 pulse-3d */}
+            <Pre15 />
 
             {/* slide 15 pulse-3d */}
             <Part15 />
