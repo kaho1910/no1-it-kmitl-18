@@ -1,5 +1,8 @@
 import React from "react";
 import MainBtnWhite from "../button/MainBtnWhite";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
+import "animate.css";
 import pic01 from "../../img/Main/Part14/01.jpg";
 import pic02 from "../../img/Main/Part14/02.png";
 import pic03 from "../../img/Main/Part14/03.png";
@@ -34,14 +37,19 @@ function Part14() {
                         <MainBtnWhite txt="เรียนรู้เพิ่มเติม" />
                     </div>
                 </div>
-                <div>
-                    <img
-                        src={pic02}
-                        className="object-cover"
-                        style={{ height: "21rem" }}
-                        alt="games"
-                    />
-                </div>
+                <ScrollAnimation
+                    animateIn="animate__slideInRight"
+                    duration="1"
+                    animateOnce="false">
+                    <div>
+                        <img
+                            src={pic02}
+                            className="object-cover"
+                            style={{ height: "21rem" }}
+                            alt="games"
+                        />
+                    </div>
+                </ScrollAnimation>
             </div>
         </div>
     );
