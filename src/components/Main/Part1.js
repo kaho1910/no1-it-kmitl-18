@@ -9,20 +9,20 @@ import pic02 from "../../img/Main/Part1/02.png";
 const Part1 = () => {
     const ref = useRef();
     return (
-        <div className="">
+        <div className="relative">
             <Controller>
                 <Scene duration="300%" triggerHook="onLeave" pin>
                     {(progress) => (
-                        <div style={{ height: "100vh" }}>
+                        <div className="z-20" style={{ height: "100vh" }}>
                             <Sequence ref={ref} progress={progress}></Sequence>
                         </div>
                     )}
                 </Scene>
             </Controller>
-            <div className="absolute top-0 left-0 w-full h-full">
+            <div className="absolute top-0 left-0 w-full h-full z-20">
                 <ScrollTrigger
                     start="210px center"
-                    end="1300px center"
+                    end="1500px center"
                     scrub={true}>
                     <Timeline
                         target={
@@ -36,13 +36,13 @@ const Part1 = () => {
                             </div>
                         }
                         paused>
-                        <Tween to={{ opacity: 0 }} />
+                        <Tween to={{ display: "none", opacity: 0 }} />
                     </Timeline>
                 </ScrollTrigger>
 
                 <ScrollTrigger
                     start="1200px center"
-                    end="2200px center"
+                    end="2400px center"
                     scrub={true}>
                     <Timeline
                         target={
@@ -57,9 +57,12 @@ const Part1 = () => {
                             </div>
                         }
                         paused>
-                        <Tween from={{ opacity: 0 }} to={{ opacity: 1 }} />
+                        <Tween
+                            from={{ zIndex: "-1", opacity: 0 }}
+                            to={{ zIndex: "1", opacity: 1 }}
+                        />
                         <ScrollTrigger start="2100px center" scrub={true}>
-                            <Tween to={{ opacity: 0 }} />
+                            <Tween to={{ display: "none", opacity: 0 }} />
                         </ScrollTrigger>
                     </Timeline>
                 </ScrollTrigger>
@@ -77,11 +80,17 @@ const Part1 = () => {
                             </div>
                         }>
                         <Tween
-                            from={{ scale: 0.4, opacity: 0 }}
-                            to={{ scale: 1, opacity: 1 }}
+                            from={{ zIndex: "-1", scale: 0.4, opacity: 0 }}
+                            to={{ zIndex: "1", scale: 1, opacity: 1 }}
                         />
-                        <ScrollTrigger start="3500px center" scrub={true}>
-                            <Tween to={{ opacity: 0, y: "-=50px" }} />
+                        <ScrollTrigger start="3800px center" scrub={true}>
+                            <Tween
+                                to={{
+                                    display: "none",
+                                    opacity: 0,
+                                    y: "-=50px",
+                                }}
+                            />
                         </ScrollTrigger>
                     </Timeline>
                 </ScrollTrigger>

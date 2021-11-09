@@ -15,7 +15,7 @@
 
 ---
 ### Need to do
-- [ ] NavBar
+- [x] NavBar
     - [x] functional
     - [x] router - title
         - [x] name
@@ -30,20 +30,22 @@
         - [x] content
         - [x] background image
     - [ ] Part4 - slide controller
-    - [ ] Part5 - slide dualsense
+        - [x] functional
+    - [x] Part5 - slide dualsense
         - [x] add image
     - [x] Part6 - static trigger
         - [x] content
         - [ ] video play/pause button
     - [x] Part7 - static communication
-    - [ ] Part8 - slide
+    - [x] Part8 - slide
     - [x] Part9 - static ssd
-    - [ ] Part10 - slide ssd showcase
-    - [ ] Part11 - static ray-tracing
+    - [x] Part10 - slide ssd showcase
+    - [x] Part11 - static ray-tracing
     - [x] Part12 - static spidy
     - [ ] Part13 - static games
+        - [x] upload image
     - [x] Part14 - static playstation plus
-    - [ ] Part15 - slide pulse-3d
+    - [x] Part15 - slide pulse-3d
         - [x] add image
     - [x] Part16 - static tv
     - [ ] Part17 - slide ps5
@@ -60,9 +62,9 @@
         - [x] functional
         - [x] box-shadow
         - [x] button shadow
-        - [ ] play button size fixed
         - [ ] glitchy bottom right logo
     - [x] VidBtnBlue .active bg-color fix
 - [ ] Entertainment
     - [x] most of the content
     - [ ] animation
+    - [ ] remove Remote Btn

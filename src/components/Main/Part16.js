@@ -16,7 +16,7 @@ function Part16() {
                 <h2 className="text-5xl">
                     เป็นมากกว่าเกม<sup>4</sup>
                 </h2>
-                <p className="text-xl my-10">
+                <p className="text-xl my-10" style={{ color: "#1f1f1f" }}>
                     สตรีมความบันเทิง 4K ได้อย่างง่ายดายจากแอปโปรดของคุณ
                     และรับชมแผ่นดิสก์ 4K Blu-ray (PS5 Digital Edition
                     ไม่สามารถเล่นแผ่นดิสก์ได้)

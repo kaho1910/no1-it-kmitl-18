@@ -16,7 +16,9 @@ function Part7() {
                     <h2 className="text-5xl">
                         พูดคุยกับ ผู้เล่นคนอื่นๆ ได้อย่างง่ายดาย
                     </h2>
-                    <p className="text-xl mt-10 pr-24">
+                    <p
+                        className="text-xl mt-10 pr-24"
+                        style={{ color: "#1f1f1f" }}>
                         เริ่มการสนทนาด้วยไมโครโฟนในตัว<sup>1</sup>
                         ปิดไมโครโฟนด้วยปุ่มปิดเสียงโดยเฉพาะ
                         เมื่อคุณต้องการมีสมาธิกับเกมของคุณ คอนโทรลเลอร์
@@ -41,7 +43,7 @@ function Part7() {
                     <h2 className="text-5xl">
                         สร้างและแบ่งปัน ช่วงเวลาที่ดีที่สุดของคุณ
                     </h2>
-                    <p className="text-xl my-12">
+                    <p className="text-xl my-12" style={{ color: "#1f1f1f" }}>
                         บันทึกการเล่นเกมของคุณและแบ่งปันกับผู้อื่นบน PlayStation
                         Network หรือแอปสื่อสังคมที่เลือก
                     </p>
