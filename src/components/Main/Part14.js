@@ -9,7 +9,7 @@ import pic03 from "../../img/Main/Part14/03.png";
 
 function Part14() {
     return (
-        <div className="w-full relative">
+        <div className="w-full relative overflow-x-hidden">
             <img
                 src={pic01}
                 className="object-cover object-top w-full"
