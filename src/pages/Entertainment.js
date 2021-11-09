@@ -12,6 +12,10 @@ import icons4k from "../img/Entertainment/icons4k.png";
 import spotify from "../img/Entertainment/spotify.png";
 import appletv from "../img/Entertainment/appletv.png";
 import remote from "../img/Entertainment/remote.png";
+import starwar from "../img/Entertainment/starwar.png";
+import ap_m from "../img/Entertainment/applemusic.jpg";
+import fifa from "../img/Entertainment/fifa.jpg";
+import BtnWhite from "../components/button/BtnWhite";
 import "../pages/Entertainment.css";
 import "animate.css/animate.min.css";
 import "animate.css";
@@ -51,7 +55,7 @@ function Entertainment() {
             </div>
             <br></br>
             {/* --------------------------------------------------------------------------------------------------------------- */}
-            <div className="seclayer">
+            <div className="seclayer mb-5">
                 <h2 className="py-8 px-8 text-5xl">
                     ทีวีและภาพยนตร์บน PlayStation®5
                 </h2>
@@ -80,6 +84,84 @@ function Entertainment() {
                         </p>
                     </div>
                 </div>
+            </div>
+            {/* --------------------------------------------------------------------------------------------------------------- */}
+            <br></br>
+            <br></br>
+            <div className="addlayer">
+                <div>
+                    <div className="relative">
+                        <div style={{ color: "white" }}>
+                            <img
+                                className="img-fluid nftm relative"
+                                src={fifa}
+                                alt="fifa"
+                                width="100%"
+                            />
+                            <div className="absolute top-1/3 nf grid grid-cols-2 fadeInUp">
+                                <div className="grid justify-items-start text-left">
+                                    <h3 className="hh3 pb-6 text-4xl">
+                                    ปลดล็อกสมาชิก Apple TV+ นานหกเดือนบน PS5™ ของคุณได้แล้วตอนนี้
+                                    </h3>
+                                    <p className="pb-6 nftext text-lg">
+                                    ศูนย์รวมความบันเทิงที่ดีที่สุดของการเล่นเกม และความบันเทิงแบบไม่เคยมีมาก่อน
+                                    </p>
+                                    <BtnWhite txt="เรียนรู้เพิ่มเติม" />
+                                    <p className="text-sm mt-8">
+                                    การทดลองใช้นาน 6 เดือนจากนั้น ฿99.00/เดือนจนกว่าจะยกเลิก ต้องมี Apple ID มีการใช้ข้อจำกัดและข้อกำหนดสิทธิ ข้อเสนอสามารถแลกในที่หน้าหลักสื่อของ PS5 ไม่ได้รวมเกมไว้ด้วย ไม่จำเป็นต้องมีเกมหรือการเล่นเกมใดๆ เพื่อรับข้อเสนอ
+                                    </p>
+                                </div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="ap_m relative">
+                        <img src={ap_m} height="95%" alt="ap_m" />
+                        <div className="absolute items-center top-0 w-full h-full grid grid-cols-2" style={{color:"white"}}>
+                            <div></div>
+                            <div className="grid justify-items-center">
+                                <div className="p-44 grid justify-items-start pr-56">
+                                    <h2 className="text-4xl mb-6 text-left">
+                                    ดนตรีทุกแบบที่คุณรักฟังตอนนี้บน PS5™ ของคุณ
+                                    </h2>
+                                    <p className="text-lg text-left mb-6">
+                                    ด้วย Apple Music คุณสามารถสร้างเพลงประกอบเกมส่วนตัวได้จากเพลงมากกว่า 90 ล้านเพลง สตรีมตอนนี้บน PS5 ของคุณ ทั้งหมดไม่มีโฆษณา
+                                    </p>
+                                    <p className="text-sm text-left text-white">
+                                    ต้องสมัครเป็นสมาชิก Apple Music
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="relative">
+                    <ScrollAnimation
+                    animateIn="animate__fadeIn"
+                    duration="0.4"
+                    animateOnce="true"
+                    offset="450"><img src={starwar} height="95%" alt="starwar" />
+                     </ScrollAnimation>
+                        <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
+                            <div className="grid justify-items-center">
+                                <div className="p-40 grid justify-items-start">
+                                    <h2 className="text-5xl mb-6 text-left text-white">
+                                    Disney+
+                                    </h2>
+                                    <p className="text-lg text-left text-white mb-12">
+                                    สตรีมสื่อบันเทิงจาก Disney, Pixar, Marvel, Star Wars และ National Geographic ภาพยนตร์ ซีรีส์ และซีรีส์ออริจินอลชั้นยอดจากผู้ถ่ายทอดเรื่องราวที่เก่งที่สุดของโลกกำลังรอให้คุณรับชม
+                                    </p>
+                                    <p className="text-sm text-left text-white">
+                                    ต้องสมัครสมาชิก Disney+ จำหน่ายแยกต่างหาก<sup>1</sup>
+                                    </p>
+                                </div>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="thrlayer mt-0">
+                <div>
                 <div className="yt_layout relative ">
                     <div>
                         <img
@@ -99,10 +181,6 @@ function Entertainment() {
                         </div>
                     </div>
                 </div>
-            </div>
-            {/* --------------------------------------------------------------------------------------------------------------- */}
-            <div className="thrlayer">
-                <div>
                     <div className="relative">
                         <div style={{ color: "white" }}>
                             <img
