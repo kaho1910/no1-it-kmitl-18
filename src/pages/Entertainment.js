@@ -21,6 +21,7 @@ import "animate.css/animate.min.css";
 import "animate.css";
 import BtnBlue from "../components/button/BtnBlue";
 import ScrollAnimation from "react-animate-on-scroll";
+import pic01 from "../img/Entertainment/01.png";
 
 function Entertainment() {
     DocTitle(
@@ -98,22 +99,34 @@ function Entertainment() {
                                 alt="fifa"
                                 width="100%"
                             />
-                            <div className="absolute top-1/3 nf grid grid-cols-2">
-                                <div className="grid justify-items-start text-left">
-                                <ScrollAnimation
-                            animateIn="fadeInUpCus"
-                            duration="2"
-                            animateOnce="true">
-                                    <h3 className="hh3 pb-6 text-4xl">
-                                    ปลดล็อกสมาชิก Apple TV+ นานหกเดือนบน PS5™ ของคุณได้แล้วตอนนี้
-                                    </h3>
-                                    <p className="pb-6 nftext text-lg">
-                                    ศูนย์รวมความบันเทิงที่ดีที่สุดของการเล่นเกม และความบันเทิงแบบไม่เคยมีมาก่อน
-                                    </p>
-                                    <BtnWhite txt="เรียนรู้เพิ่มเติม" />
-                                    <p className="text-sm mt-8">
-                                    การทดลองใช้นาน 6 เดือนจากนั้น ฿99.00/เดือนจนกว่าจะยกเลิก ต้องมี Apple ID มีการใช้ข้อจำกัดและข้อกำหนดสิทธิ ข้อเสนอสามารถแลกในที่หน้าหลักสื่อของ PS5 ไม่ได้รวมเกมไว้ด้วย ไม่จำเป็นต้องมีเกมหรือการเล่นเกมใดๆ เพื่อรับข้อเสนอ
-                                    </p>
+                            <div
+                                className="absolute nf grid grid-cols-2"
+                                style={{ top: "8%" }}>
+                                <div className="grid justify-items-start text-left pr-56">
+                                    <ScrollAnimation
+                                        animateIn="fadeInUpCus"
+                                        duration="2"
+                                        animateOnce="true">
+                                        <img src={pic01} alt="apple x ps5" />
+                                        <h3 className="hh3 pb-6 text-5xl leading-snug">
+                                            ปลดล็อกสมาชิก Apple TV+ นานหกเดือนบน
+                                            PS5™ ของคุณได้แล้วตอนนี้
+                                        </h3>
+                                        <p className="pb-6 nftext text-lg">
+                                            ศูนย์รวมความบันเทิงที่ดีที่สุดของการเล่นเกม
+                                            และความบันเทิงแบบไม่เคยมีมาก่อน
+                                        </p>
+                                        <BtnWhite txt="เรียนรู้เพิ่มเติม" />
+                                        <p className="text-sm mt-8">
+                                            การทดลองใช้นาน 6 เดือนจากนั้น
+                                            ฿99.00/เดือนจนกว่าจะยกเลิก ต้องมี
+                                            Apple ID
+                                            มีการใช้ข้อจำกัดและข้อกำหนดสิทธิ
+                                            ข้อเสนอสามารถแลกในที่หน้าหลักสื่อของ
+                                            PS5 ไม่ได้รวมเกมไว้ด้วย
+                                            ไม่จำเป็นต้องมีเกมหรือการเล่นเกมใดๆ
+                                            เพื่อรับข้อเสนอ
+                                        </p>
                                     </ScrollAnimation>
                                 </div>
                                 <div></div>
@@ -122,52 +135,65 @@ function Entertainment() {
                     </div>
                     <div className="ap_m relative">
                         <img src={ap_m} height="95%" alt="ap_m" />
-                        <div className="absolute items-center top-0 w-full h-full grid grid-cols-2" style={{color:"white"}}>
+                        <div
+                            className="absolute items-center top-0 w-full h-full grid grid-cols-2"
+                            style={{ color: "white" }}>
                             <div></div>
                             <div className="grid justify-items-center">
                                 <div className="p-44 grid justify-items-start pr-56">
-                                <ScrollAnimation
-                            animateIn="fadeInUpCus"
-                            duration="2"
-                            animateOnce="true">
-                                    <h2 className="text-4xl mb-6 text-left">
-                                    ดนตรีทุกแบบที่คุณรักฟังตอนนี้บน PS5™ ของคุณ
-                                    </h2>
-                                    <p className="text-lg text-left mb-6">
-                                    ด้วย Apple Music คุณสามารถสร้างเพลงประกอบเกมส่วนตัวได้จากเพลงมากกว่า 90 ล้านเพลง สตรีมตอนนี้บน PS5 ของคุณ ทั้งหมดไม่มีโฆษณา
-                                    </p>
-                                    <div className="text-left"><BtnWhite txt="เรียนรู้เพิ่มเติม"/></div>
-                                    <p className="text-sm text-left text-white mt-4">
-                                    ต้องสมัครเป็นสมาชิก Apple Music
-                                    </p>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUpCus"
+                                        duration="2"
+                                        animateOnce="true">
+                                        <h2 className="text-4xl mb-6 text-left">
+                                            ดนตรีทุกแบบที่คุณรักฟังตอนนี้บน PS5™
+                                            ของคุณ
+                                        </h2>
+                                        <p className="text-lg text-left mb-6">
+                                            ด้วย Apple Music
+                                            คุณสามารถสร้างเพลงประกอบเกมส่วนตัวได้จากเพลงมากกว่า
+                                            90 ล้านเพลง สตรีมตอนนี้บน PS5 ของคุณ
+                                            ทั้งหมดไม่มีโฆษณา
+                                        </p>
+                                        <div className="text-left">
+                                            <BtnWhite txt="เรียนรู้เพิ่มเติม" />
+                                        </div>
+                                        <p className="text-sm text-left text-white mt-4">
+                                            ต้องสมัครเป็นสมาชิก Apple Music
+                                        </p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="relative">
-                    <ScrollAnimation
-                    animateIn="animate__fadeIn"
-                    duration="0.4"
-                    animateOnce="true"
-                    offset="450"><img src={starwar} height="95%" alt="starwar" />
-                     </ScrollAnimation>
+                        <ScrollAnimation
+                            animateIn="animate__fadeIn"
+                            duration="0.4"
+                            animateOnce="true"
+                            offset="450">
+                            <img src={starwar} height="95%" alt="starwar" />
+                        </ScrollAnimation>
                         <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                             <div className="grid justify-items-center">
                                 <div className="p-40 grid justify-items-start">
-                                <ScrollAnimation
-                            animateIn="fadeInUpCus"
-                            duration="2"
-                            animateOnce="true">
-                                    <h2 className="text-5xl mb-6 text-left text-white">
-                                    Disney+
-                                    </h2>
-                                    <p className="text-lg text-left text-white mb-12">
-                                    สตรีมสื่อบันเทิงจาก Disney, Pixar, Marvel, Star Wars และ National Geographic ภาพยนตร์ ซีรีส์ และซีรีส์ออริจินอลชั้นยอดจากผู้ถ่ายทอดเรื่องราวที่เก่งที่สุดของโลกกำลังรอให้คุณรับชม
-                                    </p>
-                                    <p className="text-sm text-left text-white">
-                                    ต้องสมัครสมาชิก Disney+ จำหน่ายแยกต่างหาก<sup>1</sup>
-                                    </p>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUpCus"
+                                        duration="2"
+                                        animateOnce="true">
+                                        <h2 className="text-5xl mb-6 text-left text-white">
+                                            Disney+
+                                        </h2>
+                                        <p className="text-lg text-left text-white mb-12">
+                                            สตรีมสื่อบันเทิงจาก Disney, Pixar,
+                                            Marvel, Star Wars และ National
+                                            Geographic ภาพยนตร์ ซีรีส์
+                                            และซีรีส์ออริจินอลชั้นยอดจากผู้ถ่ายทอดเรื่องราวที่เก่งที่สุดของโลกกำลังรอให้คุณรับชม
+                                        </p>
+                                        <p className="text-sm text-left text-white">
+                                            ต้องสมัครสมาชิก Disney+
+                                            จำหน่ายแยกต่างหาก<sup>1</sup>
+                                        </p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -178,25 +204,25 @@ function Entertainment() {
             </div>
             <div className="thrlayer mt-0">
                 <div>
-                <div className="yt_layout relative ">
-                    <div>
-                        <img
-                            className="img-fluid yttm relative"
-                            src={yt_etm}
-                            alt="yt_etm"
-                            width="100%"
-                        />
-                        <div className="absolute top-1/3 yt px-0">
-                            <div className="grid justify-items-start">
-                                <h3 className="text-4xl mb-8">YouTube</h3>
-                                <p className="text-lg">
-                                    เอนกาย ผ่อนคลาย และเพลิดเพลินไปกับ
-                                    เนื้อหาล่าสุดจาก YouTube
-                                </p>
+                    <div className="yt_layout relative ">
+                        <div>
+                            <img
+                                className="img-fluid yttm relative"
+                                src={yt_etm}
+                                alt="yt_etm"
+                                width="100%"
+                            />
+                            <div className="absolute top-1/3 yt px-0">
+                                <div className="grid justify-items-start">
+                                    <h3 className="text-4xl mb-8">YouTube</h3>
+                                    <p className="text-lg">
+                                        เอนกาย ผ่อนคลาย และเพลิดเพลินไปกับ
+                                        เนื้อหาล่าสุดจาก YouTube
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                     <div className="relative">
                         <div style={{ color: "white" }}>
                             <img
@@ -207,22 +233,22 @@ function Entertainment() {
                             />
                             <div className="absolute top-1/3 nf grid grid-cols-2">
                                 <div className="grid justify-items-start text-left">
-                                <ScrollAnimation
-                            animateIn="fadeInUpCus"
-                            duration="2"
-                            animateOnce="true">
-                                    <h3 className="hh3 pb-6 text-4xl">
-                                        Netflix
-                                    </h3>
-                                    <p className="pb-6 nftext text-lg">
-                                        ดูภาพยนตร์ รายการทีวี และอื่นๆ จาก
-                                        Netflix บน PS5
-                                        และสตรีมรายการออริจินอลล่าสุด
-                                    </p>
-                                    <p className="llt text-sm mt-16">
-                                        ต้องเป็นสมาชิกบริการสตรีม Netflix
-                                        จำหน่ายแยกต่างหาก<sup>4</sup>
-                                    </p>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUpCus"
+                                        duration="2"
+                                        animateOnce="true">
+                                        <h3 className="hh3 pb-6 text-4xl">
+                                            Netflix
+                                        </h3>
+                                        <p className="pb-6 nftext text-lg">
+                                            ดูภาพยนตร์ รายการทีวี และอื่นๆ จาก
+                                            Netflix บน PS5
+                                            และสตรีมรายการออริจินอลล่าสุด
+                                        </p>
+                                        <p className="llt text-sm mt-16">
+                                            ต้องเป็นสมาชิกบริการสตรีม Netflix
+                                            จำหน่ายแยกต่างหาก<sup>4</sup>
+                                        </p>
                                     </ScrollAnimation>
                                 </div>
                                 <div></div>
@@ -230,57 +256,59 @@ function Entertainment() {
                         </div>
                     </div>
                     <div className="gm_layout relative">
-                    <ScrollAnimation
-                    animateIn="animate__fadeIn"
-                    duration="0.4"
-                    animateOnce="true"
-                    offset="450"><img src={gm_etm} height="95%" alt="mutiplayer" /></ScrollAnimation>
+                        <ScrollAnimation
+                            animateIn="animate__fadeIn"
+                            duration="0.4"
+                            animateOnce="true"
+                            offset="450">
+                            <img src={gm_etm} height="95%" alt="mutiplayer" />
+                        </ScrollAnimation>
                         <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                             <div></div>
                             <div className="grid justify-items-center">
                                 <div className="p-44 grid justify-items-start pr-56">
-                                <ScrollAnimation
-                            animateIn="fadeInUpCus"
-                            duration="2"
-                            animateOnce="true">
-                                    <h2 className="text-4xl mb-6 text-left">
-                                        Twitch
-                                    </h2>
-                                    <p className="text-lg text-left mb-6">
-                                        สตรีมตอนนี้
-                                        เข้าร่วมชุมชนที่มีสตรีมเมอร์ชื่อดังและผู้คนอีกนับล้านที่สตรีมในทุกวันเพื่อเชื่อมโยงสิ่งต่างๆ
-                                        ที่คุณรัก ตั้งแต่เกมจนไปเพลง และอื่นๆ
-                                        อีกมากมาย
-                                        ตอนนี้คุณสามารถถ่ายทอดการเล่นเกมของคุณเองได้จากคอนโซล
-                                        PS5
-                                    </p>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUpCus"
+                                        duration="2"
+                                        animateOnce="true">
+                                        <h2 className="text-4xl mb-6 text-left">
+                                            Twitch
+                                        </h2>
+                                        <p className="text-lg text-left mb-6">
+                                            สตรีมตอนนี้
+                                            เข้าร่วมชุมชนที่มีสตรีมเมอร์ชื่อดังและผู้คนอีกนับล้านที่สตรีมในทุกวันเพื่อเชื่อมโยงสิ่งต่างๆ
+                                            ที่คุณรัก ตั้งแต่เกมจนไปเพลง
+                                            และอื่นๆ อีกมากมาย
+                                            ตอนนี้คุณสามารถถ่ายทอดการเล่นเกมของคุณเองได้จากคอนโซล
+                                            PS5
+                                        </p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="relative">
-                    <img src={act_etm} height="95%" alt="mutiplayer" />
+                        <img src={act_etm} height="95%" alt="mutiplayer" />
                         <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                             <div className="grid justify-items-center">
                                 <div className="p-40 grid justify-items-start">
-                                <ScrollAnimation
-                            animateIn="fadeInUpCus"
-                            duration="2"
-                            animateOnce="true">
-                                    <h2 className="text-5xl mb-6 text-left text-white">
-                                        Amazon Prime Video
-                                    </h2>
-                                    <p className="text-lg text-left text-white mb-12">
-                                        รับชมภาพยนตร์และรายการทีวี
-                                        รวมถึงรายการจาก Amazon Originals เช่น
-                                        The Boys, Tom Clancy's Jack Ryan
-                                        และอื่นๆ
-                                    </p>
-                                    <p className="text-sm text-left text-white">
-                                        ต้องสมัครสมาชิก Amazon Prime
-                                        จำหน่ายแยกต่างหาก<sup>3</sup>
-                                    </p>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUpCus"
+                                        duration="2"
+                                        animateOnce="true">
+                                        <h2 className="text-5xl mb-6 text-left text-white">
+                                            Amazon Prime Video
+                                        </h2>
+                                        <p className="text-lg text-left text-white mb-12">
+                                            รับชมภาพยนตร์และรายการทีวี
+                                            รวมถึงรายการจาก Amazon Originals
+                                            เช่น The Boys, Tom Clancy's Jack
+                                            Ryan และอื่นๆ
+                                        </p>
+                                        <p className="text-sm text-left text-white">
+                                            ต้องสมัครสมาชิก Amazon Prime
+                                            จำหน่ายแยกต่างหาก<sup>3</sup>
+                                        </p>
                                     </ScrollAnimation>
                                 </div>
                             </div>
@@ -377,7 +405,7 @@ function Entertainment() {
                 </p>
             </div>
             {/* --------------------------------------------------------------------------------------------------------------- */}
-            <div className="grid grid-cols-2 justify-items-center mt-12">
+            <div className="grid grid-cols-2 justify-items-center my-12">
                 <div>
                     <img src={remote} width="80%" className="mx-40" alt="pic" />
                 </div>
@@ -389,8 +417,6 @@ function Entertainment() {
                             และอื่นๆ บนคอนโซล PS5™ ของคุณได้สะดวกยิ่งขึ้น
                             ด้วยเลย์เอาต์ที่ใช้งานง่าย
                         </p>
-                        <BtnBlue txt="เรียนรู้เพิ่มเติม" />
-                        {/* <LMBB /> */}
                     </div>
                 </div>
             </div>
