@@ -64,7 +64,7 @@
         - [x] button shadow
         - [ ] glitchy bottom right logo
     - [x] VidBtnBlue .active bg-color fix
-- [ ] Entertainment
+- [x] Entertainment
     - [x] most of the content
-    - [ ] animation
-    - [ ] remove Remote Btn
+    - [x] animation
+    - [x] remove Remote Btn
