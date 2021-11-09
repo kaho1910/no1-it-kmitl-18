@@ -65,8 +65,7 @@ function Pre15() {
                                 <ScrollTrigger
                                     start="35900px bottom"
                                     end="36150px bottom"
-                                    scrub={true}
-                                    markers>
+                                    scrub={true}>
                                     <Timeline
                                         target={
                                             <img
@@ -102,7 +101,7 @@ function Pre15() {
                     start="2400px bottom"
                     end="3900px bottom"
                     scrub={true}
-                    markers>
+                    >
                     <Timeline
                         target={
                             <div className="z-10">
