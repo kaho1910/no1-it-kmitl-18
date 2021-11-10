@@ -81,9 +81,25 @@ function Pre15() {
                                         />
                                     </Timeline>
                                 </ScrollTrigger>
-                                <h2 className="text-5xl text-center">
-                                    พร้อมเสียง 3D
-                                </h2>
+                                <ScrollTrigger
+                                    start="36200px center"
+                                    end="37800px center">
+                                    <Timeline
+                                        target={
+                                            <h2 className="text-5xl text-center">
+                                                พร้อมเสียง 3D
+                                            </h2>
+                                        }
+                                        paused>
+                                        <Tween
+                                            from={{ y: "+=0vh" }}
+                                            to={{ y: "+=45vh" }}
+                                        />
+                                        <Tween to={{ y: "+=0vh" }} />
+                                        <Tween to={{ opacity: "0" }} />
+                                        <Tween to={{ y: "-=45vh" }} />
+                                    </Timeline>
+                                </ScrollTrigger>
                             </div>
                         </div>
                     }
