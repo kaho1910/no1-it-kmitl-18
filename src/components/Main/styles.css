@@ -13,3 +13,76 @@
         transform: rotate(360deg);
     }
 }
+  .slick-list{
+    height: 90vh;
+  }
+  .title{
+    margin-top: 10px;
+    width: 80%;
+    opacity: 0.5;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+  }
+  .cont{
+    margin-top: 10px;
+    visibility: hidden;
+    width: 80%;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+  }
+  .card-btn{
+    visibility: hidden;
+  }
+  .box{
+    height: 100%;
+    margin-top: 40%;
+  }
+  .img-card {
+      filter: brightness(60%);
+      width: 75%;
+      border-radius: 18px;
+      border: 2px solid blue;
+  }
+  .slick-prev {
+    left: 35% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 41% !important;
+    z-index: 1;
+  }
+  .slick-dots li button:before {
+    color:white !important;
+}
+.slick-dots li.slick-active button:after {
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+  .slick-next:before, .slick-prev:before {
+      color: white;
+  }
+  .center .slick-center .box{
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+  .center .slick-center .box .cont{
+    visibility: visible;
+  }
+  .center .slick-center .box .card-btn{
+    visibility: visible;
+  }
+  .center .slick-center .box .img-card{
+      filter: brightness(1);
+      border: 1px solid rgb(0, 195, 255);
+  }
+  .center .slick-center .box .title{
+      opacity: 1;
+  }
+  .center .slick-center .box, .img-card{
+    transition: all 0.5s ease;
+  }
+  
+  .hide{
+    display: none;
+  }

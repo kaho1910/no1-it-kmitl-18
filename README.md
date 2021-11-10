@@ -12,6 +12,8 @@
 8. `npm install --save animate.css`
 9. `npm install --save react-scrollmagic`
 10. `npm install gsap react-gsap`
+11. `npm install react-slick --save`
+12. `npm install slick-carousel --save`
 
 ---
 ### Need to do
