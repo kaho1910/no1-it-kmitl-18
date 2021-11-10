@@ -48,10 +48,7 @@ function Features() {
                 {/* </ScrollAnimation> */}
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div className="grid justify-items-center">
-                        <ScrollAnimation
-                            animateIn="animate__fadeIn"
-                            duration="1.5"
-                            animateOnce="true">
+                        <div className="animate__animated animate__fadeIn">
                             <h1 className="text-6xl mb-6 text-left">
                                 ฟีเจอร์ PS5™ อื่นๆ
                             </h1>
@@ -59,7 +56,7 @@ function Features() {
                                 ลองสัมผัส UI ของคอนโซล PS5 ให้ละเอียด
                                 และค้นพบวิธีใหม่ๆ ในการเล่น
                             </p>
-                        </ScrollAnimation>
+                        </div>
                     </div>
                     <div></div>
                 </div>

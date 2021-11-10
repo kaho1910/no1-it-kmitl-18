@@ -11,13 +11,13 @@ function Footer() {
             <div className="pl-24 pt-3">
                 <div className="h-1/2 grid grid-cols-1 -space-y-6">
                     <img src={ps} width="108px" alt="ps logo" />
-                    <div className="justify-self-start cursor-pointer">
+                    <div className="justify-self-start">
                         <img
-                            className="inline pr-2"
+                            className="inline pr-2 cursor-pointer"
                             src={language}
                             alt="lang"
                         />
-                        <p className="inline text-base">
+                        <p className="inline text-base cursor-pointer">
                             ประเทศ / เขตภูมิภาค: Thailand
                         </p>
                     </div>
