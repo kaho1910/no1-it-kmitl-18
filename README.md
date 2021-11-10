@@ -48,7 +48,7 @@
     - [x] Part15 - slide pulse-3d
         - [x] add image
     - [x] Part16 - static tv
-    - [ ] Part17 - slide ps5
+    - [x] Part17 - slide ps5
     - [x] Part18 - static more
     - [x] Part19 - static footer
 - [x] Game
