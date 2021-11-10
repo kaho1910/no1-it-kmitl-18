@@ -19,6 +19,7 @@ import Part14 from "../components/Main/Part14";
 import Pre15 from "../components/Main/Pre15";
 import Part15 from "../components/Main/Part15";
 import Part16 from "../components/Main/Part16";
+import Part17 from "../components/Main/Part17";
 import Part18 from "../components/Main/Part18";
 import Part19 from "../components/Main/Part19";
 
@@ -78,6 +79,7 @@ function main() {
             <Part16 />
 
             {/* slide 17 ps5 */}
+            <Part17 />
 
             {/* static 18 more */}
             <Part18 />
