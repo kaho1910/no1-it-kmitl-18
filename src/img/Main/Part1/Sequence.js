@@ -1,6 +1,5 @@
 import React, { forwardRef } from "react";
 import ImageArray from "./ImageArray";
-import { Tween, Timeline } from "react-gsap";
 
 const Sequence = forwardRef(({ progress }, ref) => {
     const newImages = ImageArray();
@@ -18,15 +17,7 @@ const Sequence = forwardRef(({ progress }, ref) => {
                 backgroundImage: `url('${item[0] ? item[0].src : null}')`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-            }}>
-            {/* <Timeline>
-                <Tween from={{ opacity: 0 }} to={{ opacity: 1 }} duration={2}>
-                    <div className="absolute pl-36" style={{ top: "70%" }}>
-                        hello world
-                    </div>
-                </Tween>
-            </Timeline> */}
-        </span>
+            }}></span>
     ));
 });
 

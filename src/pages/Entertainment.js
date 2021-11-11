@@ -19,7 +19,6 @@ import BtnWhite from "../components/button/BtnWhite";
 import "../pages/Entertainment.css";
 import "animate.css/animate.min.css";
 import "animate.css";
-import BtnBlue from "../components/button/BtnBlue";
 import ScrollAnimation from "react-animate-on-scroll";
 import pic01 from "../img/Entertainment/01.png";
 

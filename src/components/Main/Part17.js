@@ -56,7 +56,6 @@ function Part17() {
                                     </Timeline>
                                 </ScrollTrigger>
                             </div>
-
                             <div
                                 className="px-80 pb-20 grid grid-cols-2 text-center"
                                 style={{ transform: "translateY(-250px)" }}>

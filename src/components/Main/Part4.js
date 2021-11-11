@@ -35,14 +35,6 @@ function Part4() {
                                         </h3>
                                     }
                                     paused>
-                                    {/* <ScrollTrigger
-                                        start="-20px center"
-                                        end="20px center">
-                                        <Tween
-                                            from={{ position: "absolute" }}
-                                            to={{ position: "fixed" }}
-                                        />
-                                    </ScrollTrigger> */}
                                     <ScrollTrigger
                                         start="-200px center"
                                         end="0px center">
@@ -54,7 +46,6 @@ function Part4() {
                                             }}
                                         />
                                     </ScrollTrigger>
-                                    {/* <Tween to={{ position: "fixed" }} /> */}
                                     <ScrollTrigger
                                         start="200px center"
                                         end="800px center">
@@ -147,27 +138,10 @@ function Part4() {
                             <ScrollTrigger start="10000px center" scrub={true}>
                                 <Tween to={{ display: "none" }} />
                             </ScrollTrigger>
-                            {/* <ScrollTrigger
-                                start="8900px center"
-                                end="8900px center"
-                                markers>
-                                <Tween to={{ position: "static" }} />
-                            </ScrollTrigger> */}
                         </Timeline>
                     </ScrollTrigger>
                 </Scene>
             </Controller>
-            {/* <div
-                className="absolute w-full justify-center"
-                style={{ height: "100vh", bottom: "-100vh" }}>
-                <video
-                    poster={pic02}
-                    src={v01}
-                    className="object-cover object-center w-full h-screen"
-                    autoPlay
-                    loop
-                    muted></video>
-            </div> */}
         </div>
     );
 }

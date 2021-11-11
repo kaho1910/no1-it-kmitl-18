@@ -1,4 +1,4 @@
-import React, { Component, useRef } from "react";
+import React from "react";
 import { Tween, Timeline, ScrollTrigger } from "react-gsap";
 import Slider from "react-slick";
 import "./styles.css";

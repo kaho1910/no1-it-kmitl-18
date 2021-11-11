@@ -35,17 +35,12 @@ function Features() {
     return (
         <div>
             <div className="relative">
-                {/* <ScrollAnimation
-                    animateIn="animate__fadeIn"
-                    duration="1.5"
-                    animateOnce="true"> */}
                 <img
                     className="animate__animated animate__fadeIn"
                     src={pic1}
                     width="100%"
                     alt="ps5"
                 />
-                {/* </ScrollAnimation> */}
                 <div className="absolute items-center top-0 w-full h-full grid grid-cols-2">
                     <div className="grid justify-items-center">
                         <div className="animate__animated animate__fadeIn">

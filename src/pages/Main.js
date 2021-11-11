@@ -1,7 +1,5 @@
 import React from "react";
 import DocTitle from "../components/etc/DocTitle";
-import { Controller, Scene } from "react-scrollmagic";
-// import Show from "./Show";
 import Part1 from "../components/Main/Part1";
 import Part2 from "../components/Main/Part2";
 import Part3 from "../components/Main/Part3";

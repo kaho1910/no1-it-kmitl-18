@@ -112,47 +112,6 @@ function Pre15() {
                     <Tween to={{ y: "-=45vh" }} />
                 </Timeline>
             </ScrollTrigger>
-            {/* <div className="flex justify-center items-center px-96 pt-96 h-full">
-                <ScrollTrigger
-                    start="2400px bottom"
-                    end="3900px bottom"
-                    scrub={true}
-                    >
-                    <Timeline
-                        target={
-                            <div className="z-10">
-                                <ScrollTrigger
-                                    start="3100px bottom"
-                                    end="3250px bottom"
-                                    scrub={true}>
-                                    <Timeline
-                                        target={
-                                            <h2 className="text-5xl text-center">
-                                                เพิ่มการรับรู้ของคุณ
-                                            </h2>
-                                        }
-                                        paused>
-                                        <Tween
-                                            from={{ opacity: 0 }}
-                                            to={{ opacity: 1 }}
-                                        />
-                                    </Timeline>
-                                </ScrollTrigger>
-                                <img
-                                    className="my-20"
-                                    src={pic01}
-                                    alt="pulse-3d"
-                                />
-                                <h2 className="text-5xl text-center">
-                                    พร้อมเสียง 3D
-                                </h2>
-                            </div>
-                        }
-                        paused>
-                        <Tween from={{ y: "0px" }} to={{ y: "-=100px" }} />
-                    </Timeline>
-                </ScrollTrigger>
-            </div> */}
         </div>
     );
 }
