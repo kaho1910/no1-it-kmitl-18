@@ -72,3 +72,11 @@
     - [x] most of the content
     - [x] animation
     - [x] remove Remote Btn
+
+---
+#### Link at
+1. `package.json -homepage`
+2. `App.js -Route/path`
+3. `NavBar.js -NavLink/to`
+4. `Part16.js -Link/to`
+5. `Part18.js -Link/to`
