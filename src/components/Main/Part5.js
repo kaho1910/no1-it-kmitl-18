@@ -66,7 +66,7 @@ const Part1 = () => {
                 </ScrollTrigger>
                 <ScrollTrigger
                     start="12200px center"
-                    end="13500px center"
+                    end="14000px center"
                     scrub={true}>
                     <Timeline
                         target={
@@ -75,7 +75,7 @@ const Part1 = () => {
                                     src={pic01}
                                     alt="bg"
                                     width="55%"
-                                    class="spin"
+                                    className="spin"
                                 />
                             </div>
                         }
