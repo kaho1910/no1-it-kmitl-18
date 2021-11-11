@@ -23,7 +23,7 @@
         - [x] name
         - [x] icon
     - [x] Footer
-    - [ ] choose fonts
+    - [ ] choose fonts (skipped)
 - [x] PlayStation 5
     - [x] Part1 - slide
         - [x] demo Show.js
@@ -31,8 +31,9 @@
     - [x] Part3 - static youtube
         - [x] content
         - [x] background image
-    - [ ] Part4 - slide controller
+    - [x] Part4 - slide controller
         - [x] functional
+        - [ ] look good (skipped)
     - [x] Part5 - slide dualsense
         - [x] add image
     - [x] Part6 - static trigger
@@ -46,7 +47,7 @@
     - [x] Part12 - static spidy
     - [x] Part13 - static games
         - [x] upload image
-        - [ ] init slide
+        - [ ] init slide (library bugs | skipped)
     - [x] Part14 - static playstation plus
     - [x] Part15 - slide pulse-3d
         - [x] add image
@@ -65,7 +66,7 @@
         - [x] functional
         - [x] box-shadow
         - [x] button shadow
-        - [ ] glitchy bottom right logo
+        - [ ] glitchy bottom right logo (skipped)
     - [x] VidBtnBlue .active bg-color fix
 - [x] Entertainment
     - [x] most of the content
