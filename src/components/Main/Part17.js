@@ -120,8 +120,7 @@ function Part17() {
                                 <ScrollTrigger
                                     start="46000px bottom"
                                     end="47000px bottom"
-                                    scrub={true}
-                                    markers>
+                                    scrub={true}>
                                     <Timeline
                                         target={
                                             <div>
