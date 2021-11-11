@@ -1,4 +1,5 @@
 import "./App.css";
+import { createBrowserHistory } from "history";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/navbar/NavBar";
 import Main from "./pages/Main";
@@ -11,7 +12,7 @@ import Footer from "./components/footer/Footer";
 function App() {
     return (
         <div className="App">
-            <Router>
+            <Router basename="/project/g33playstation">
                 <NavBar />
                 <Switch>
                     <Route path="/" exact component={Main} />
@@ -28,5 +29,7 @@ function App() {
         </div>
     );
 }
-
+export const history = createBrowserHistory({
+    basename: process.env.PUBLIC_URL,
+});
 export default App;
