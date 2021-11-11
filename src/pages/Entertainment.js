@@ -331,8 +331,8 @@ function Entertainment() {
                         <img
                             className="img-fluid bdps5"
                             src={body_playstation}
-                            alt="body=playstation"
-                            width="100%"
+                            alt="body-playstation"
+                            width="90%"
                         />
                     </div>
                 </div>

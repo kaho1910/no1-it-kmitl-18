@@ -41,7 +41,7 @@ function Accessories() {
             </div>
 
             <div className="grid grid-cols-1 justify-items-center">
-                <h1 className="text-4xl m-16">คอนโทรลเลอร์ไร้สาย DualSense™</h1>
+                <h1 className="text-5xl m-16">คอนโทรลเลอร์ไร้สาย DualSense™</h1>
                 <img src={dualsense} width="60%" alt="pic" />
                 <p className="text-lg mt-16 mb-8 mx-52 px-96">
                     ค้นพบประสบการณ์การเล่นเกมที่ล้ำลึก และสมจริงมากขึ้น
@@ -76,7 +76,7 @@ function Accessories() {
                             ได้สูงสุดสองตัวพร้อมกันโดยไม่ต้อง เชื่อมต่อกับคอนโซล
                             PlayStation®5
                         </p>
-                        <BtnBlue txt="เรียนรู้เพิ่มเติม" />
+                        <BtnBlue txt="ศึกษาข้อมูลเพิ่มเติม" />
                         {/* <LMBB /> */}
                     </div>
                 </div>

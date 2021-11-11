@@ -55,7 +55,9 @@ function Footer() {
                     <FootLink>งานที่ PlayStation</FootLink>
                     <FootLink>การใช้งานเครื่องหมายการค้า</FootLink>
                     <FootLink>
-                        ความสัมพันธ์ระหว่างผู้จัดจำหน่าย&นักพัฒนา
+                        ความสัมพันธ์ระหว่างผู้จัด
+                        <br />
+                        จำหน่าย&นักพัฒนา
                     </FootLink>
                     <FootLink>แผนผังเว็บไซต์</FootLink>
                 </div>
