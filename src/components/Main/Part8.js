@@ -71,7 +71,7 @@ function Part8() {
                         }
                         paused>
                         <Tween
-                            from={{ zIndex: "-1", scale: 0.2, opacity: 0 }}
+                            from={{ zIndex: "-1", scale: 0.2, opacity: 0.2 }}
                             to={{ zIndex: "0", scale: 1, opacity: 1 }}
                         />
                         <Tween to={{ opacity: 1 }} />
