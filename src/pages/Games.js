@@ -709,7 +709,11 @@ function Games() {
                                 alt="solar ash"
                                 open="TBC"
                                 btn="เรียนรู้เพิ่มเติม"
-                                mb="0"></CardGameV2>
+                                mb="0">
+                                Solar Ash คือเกมใหม่จาก Heart Machine
+                                ซึ่งเป็นผู้สร้างเกม Hyper Light Drifter ปี 2016
+                                ที่คว้ารางวัลมาแล้ว
+                            </CardGameV2>
                         </div>
                     </div>
                 </div>
