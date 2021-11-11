@@ -1,4 +1,5 @@
 import React, { Component, useRef } from "react";
+import { Tween, Timeline, ScrollTrigger } from "react-gsap";
 import Slider from "react-slick";
 import "./styles.css";
 import "slick-carousel/slick/slick.css";
@@ -31,8 +32,24 @@ function Part13() {
         speed: 500,
     };
     return (
-        <div className="w-full overflow-x-hidden relative">
-            <img className="absolute bottom-0 right-0" src={bg} alt="bg" />
+        <div className="w-full overflow-hidden relative">
+            <ScrollTrigger
+                start="3000px 800px"
+                end="3500px 800px"
+                scrub={true}
+                markers>
+                <Timeline
+                    target={
+                        <img
+                            className="absolute bottom-0 right-0"
+                            src={bg}
+                            alt="bg"
+                        />
+                    }
+                    paused>
+                    <Tween from={{ y: "+=400px" }} to={{ y: "-=400px" }} />
+                </Timeline>
+            </ScrollTrigger>
             <div
                 style={{
                     height: "100vh",
@@ -183,60 +200,133 @@ function Part13() {
                     height: "130vh",
                     backgroundImage: "linear-gradient(180deg,#082eaa,#041c69)",
                 }}>
-                <div className="grid grid-cols-2 px-80 text-white text-left">
-                    <div className="z-10">
-                        <img src={ps4} alt="ps4" />
-                        <h3 className="text-5xl mt-6">เล่นเกม PS4 กว่า</h3>
-                        <h3 className="text-5xl mt-2">4,000 เกมได้ใน</h3>
-                        <h3 className="text-5xl mt-2">คอนโซล PS5 ของคุณ</h3>
-                        <p className="text-2xl mt-8">
-                            ย้อนกลับไปเล่นเกม PS4 และเกม PS VR ด้วย
-                        </p>
-                        <p className="text-2xl">ความเข้ากันได้ย้อนหลัง</p>
-                        <div className="mt-8">
-                            <MainBtnWhite txt="เรียนรู้เพิ่มเติม" />
-                        </div>
-                    </div>
-                    <div className="flex z-10">
-                        <div className="ml-2 mr-32 border-l border-left"></div>
-                        <div>
-                            <img src={gameBoost} alt="gameBoost" />
-                            <h3 className="text-5xl mt-6">กลับไปเล่นเกม</h3>
-                            <h3 className="text-5xl mt-2">ฮิตที่ได้รับการ</h3>
-                            <h3 className="text-5xl mt-2">ปรับปรุง</h3>
-                            <p className="text-2xl mt-8">
-                                Game Boost ช่วยให้อัตราเฟรมที่
-                            </p>
-                            <p className="text-2xl">
-                                รวดเร็วและราบรื่นยิ่งขึ้นในเกม PS4
-                            </p>
-                            <p className="text-2xl">และ PS VR ที่เลือก</p>
-                        </div>
-                    </div>
-                </div>
+                <ScrollTrigger
+                    start="2800px 800px"
+                    end="3000px 800px"
+                    scrub={true}>
+                    <Timeline
+                        target={
+                            <div className="grid grid-cols-2 px-80 text-white text-left">
+                                <div className="z-10">
+                                    <img src={ps4} alt="ps4" />
+                                    <h3 className="text-5xl mt-6">
+                                        เล่นเกม PS4 กว่า
+                                    </h3>
+                                    <h3 className="text-5xl mt-2">
+                                        4,000 เกมได้ใน
+                                    </h3>
+                                    <h3 className="text-5xl mt-2">
+                                        คอนโซล PS5 ของคุณ
+                                    </h3>
+                                    <p className="text-2xl mt-8">
+                                        ย้อนกลับไปเล่นเกม PS4 และเกม PS VR ด้วย
+                                    </p>
+                                    <p className="text-2xl">
+                                        ความเข้ากันได้ย้อนหลัง
+                                    </p>
+                                    <div className="mt-8">
+                                        <MainBtnWhite txt="เรียนรู้เพิ่มเติม" />
+                                    </div>
+                                </div>
+                                <div className="flex items-center z-10">
+                                    <ScrollTrigger
+                                        start="2700px 750px"
+                                        end="3000px 750px"
+                                        scrub={true}>
+                                        <Timeline
+                                            target={
+                                                <div className="ml-2 mr-32 border-l border-left"></div>
+                                            }
+                                            paused>
+                                            <Tween
+                                                from={{ height: "0%" }}
+                                                to={{ height: "100%" }}
+                                            />
+                                        </Timeline>
+                                    </ScrollTrigger>
+                                    <div>
+                                        <img src={gameBoost} alt="gameBoost" />
+                                        <h3 className="text-5xl mt-6">
+                                            กลับไปเล่นเกม
+                                        </h3>
+                                        <h3 className="text-5xl mt-2">
+                                            ฮิตที่ได้รับการ
+                                        </h3>
+                                        <h3 className="text-5xl mt-2">
+                                            ปรับปรุง
+                                        </h3>
+                                        <p className="text-2xl mt-8">
+                                            Game Boost ช่วยให้อัตราเฟรมที่
+                                        </p>
+                                        <p className="text-2xl">
+                                            รวดเร็วและราบรื่นยิ่งขึ้นในเกม PS4
+                                        </p>
+                                        <p className="text-2xl">
+                                            และ PS VR ที่เลือก
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        paused>
+                        <Tween
+                            from={{ opacity: 0, y: "+=250px" }}
+                            to={{ opacity: 1, y: "-=250px" }}
+                        />
+                    </Timeline>
+                </ScrollTrigger>
                 <div className="flex justify-center items-center px-80 my-20">
-                    <hr className="h-px bg-white z-10 w-full" />
+                    <ScrollTrigger
+                        start="3400px bottom"
+                        end="3700px bottom"
+                        scrub={true}>
+                        <Timeline
+                            target={<hr className="h-px bg-white z-10" />}
+                            paused>
+                            <Tween
+                                from={{ width: "0%" }}
+                                to={{ width: "100%" }}
+                            />
+                        </Timeline>
+                    </ScrollTrigger>
                 </div>
-                <div className="grid grid-cols-2 px-80 text-white text-left">
-                    <div className="pr-20 z-10">
-                        <h3 className="text-5xl mt-6">
-                            ก้าวเข้าสู่เกมของคุณด้วย
-                        </h3>
-                        <h3 className="text-5xl mt-2">
-                            PlayStation VR<sup>2</sup>
-                        </h3>
-                        <p className="text-2xl mt-8">
-                            เชื่อมต่อ PlayStationVR กับคอนโซล PS5 เพื่อเล่นเกม
-                        </p>
-                        <p className="text-2xl">PlayStation VR ที่รองรับ</p>
-                        <div className="mt-8">
-                            <MainBtnWhite txt="เรียนรู้เพิ่มเติม" />
-                        </div>
-                    </div>
-                    <div className="z-10 pl-12 mt-24 transform scale-150">
-                        <img src={vr} alt="VR" />
-                    </div>
-                </div>
+                <ScrollTrigger
+                    start="2500px 800px"
+                    end="2700px 800px"
+                    scrub={true}>
+                    <Timeline
+                        target={
+                            <div className="grid grid-cols-2 px-80 text-white text-left">
+                                <div className="pr-20 z-10">
+                                    <h3 className="text-5xl mt-6">
+                                        ก้าวเข้าสู่เกมของคุณด้วย
+                                    </h3>
+                                    <h3 className="text-5xl mt-2">
+                                        PlayStation VR<sup>2</sup>
+                                    </h3>
+                                    <p className="text-2xl mt-8">
+                                        เชื่อมต่อ PlayStationVR กับคอนโซล PS5
+                                        เพื่อเล่นเกม
+                                    </p>
+                                    <p className="text-2xl">
+                                        PlayStation VR ที่รองรับ
+                                    </p>
+                                    <div className="mt-8">
+                                        <MainBtnWhite txt="เรียนรู้เพิ่มเติม" />
+                                    </div>
+                                </div>
+                                <div className="z-10 pl-12 mt-24 transform scale-150">
+                                    <img src={vr} alt="VR" />
+                                </div>
+                            </div>
+                        }
+                        paused>
+                        <Tween
+                            from={{ opacity: 0, y: "+=250px" }}
+                            to={{ opacity: 1, y: "-=250px" }}
+                        />
+                    </Timeline>
+                </ScrollTrigger>
             </div>
         </div>
     );
