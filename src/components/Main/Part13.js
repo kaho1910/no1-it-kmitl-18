@@ -33,11 +33,7 @@ function Part13() {
     };
     return (
         <div className="w-full overflow-hidden relative">
-            <ScrollTrigger
-                start="3000px 800px"
-                end="3500px 800px"
-                scrub={true}
-                markers>
+            <ScrollTrigger start="3000px 800px" end="3500px 800px" scrub={true}>
                 <Timeline
                     target={
                         <img
